@@ -1,0 +1,2089 @@
+{
+  "source_url": "https://docs.base.org/",
+  "crawled_at": "2024-12-11T02:23:04.626Z",
+  "pages": [
+    {
+      "url": "https://docs.base.org/",
+      "title": "Base Docs | Base",
+      "code_examples": [],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials/deploy-with-foundry",
+        "https://docs.base.org/tutorials/run-a-base-node",
+        "https://docs.base.org/tutorials/build-with-thirdweb",
+        "https://docs.base.org/tutorials/oracles-chainlink-price-feeds",
+        "https://docs.base.org/docs/",
+        "https://docs.base.org/docs/using-base",
+        "https://docs.base.org/docs/network-information",
+        "https://docs.base.org/docs/base-contracts",
+        "https://docs.base.org/docs/fees",
+        "https://docs.base.org/docs/differences",
+        "https://docs.base.org/docs/tools/registry-api/",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/docs/tools/block-explorers",
+        "https://docs.base.org/docs/tools/network-faucets",
+        "https://docs.base.org/docs/tools/oracles",
+        "https://docs.base.org/docs/tools/data-indexers",
+        "https://docs.base.org/docs/tools/cross-chain",
+        "https://docs.base.org/docs/tools/account-abstraction",
+        "https://docs.base.org/docs/tokens/list",
+        "https://docs.base.org/docs/contracts",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "Tutorials",
+          "content": "Elevate your coding skills on Base with guided development tutorials."
+        },
+        {
+          "heading": "Base Learn",
+          "content": "Become an onchain developer with our comprehensive smart contract development curriculum."
+        },
+        {
+          "heading": "Base Grants",
+          "content": "Innovate and build on Base to qualify for grants that support impactful projects."
+        },
+        {
+          "heading": "Deploying a smart contract",
+          "content": "Learn how to deploy a smart contract to Base."
+        },
+        {
+          "heading": "Running a Base node",
+          "content": "Learn how to set up and run your own local Base node."
+        },
+        {
+          "heading": "Build an onchain app",
+          "content": "Learn how to create an NFT collection and build an NFT gallery application for viewing metadata."
+        },
+        {
+          "heading": "Access data using an Oracle",
+          "content": "Learn how to access price data within a smart contract using Chainlink price feeds."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/docs",
+      "title": "About Base | Base",
+      "code_examples": [],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/docs/",
+        "https://docs.base.org/docs/using-base",
+        "https://docs.base.org/docs/decomissioning-public-geth-archive-snapshots",
+        "https://docs.base.org/docs/quickstart",
+        "https://docs.base.org/docs/network-information",
+        "https://docs.base.org/docs/base-contracts",
+        "https://docs.base.org/docs/fees",
+        "https://docs.base.org/docs/differences",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/docs/tools/block-explorers",
+        "https://docs.base.org/docs/tools/network-faucets",
+        "https://docs.base.org/docs/tools/oracles",
+        "https://docs.base.org/docs/tools/data-indexers",
+        "https://docs.base.org/docs/tools/cross-chain",
+        "https://docs.base.org/docs/tools/account-abstraction",
+        "https://docs.base.org/docs/tools/onramps",
+        "https://docs.base.org/docs/tools/onboarding",
+        "https://docs.base.org/docs/tools/bridges",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/basenames-faq",
+        "https://docs.base.org/docs/tools/foundry",
+        "https://docs.base.org/docs/tools/ethers",
+        "https://docs.base.org/docs/tokens/list",
+        "https://docs.base.org/docs/tokens/wallet",
+        "https://docs.base.org/docs/contracts",
+        "https://docs.base.org/docs/security/bounty",
+        "https://docs.base.org/docs/security/report",
+        "https://docs.base.org/docs/security/app-blocklist",
+        "https://docs.base.org/docs/terms-of-service",
+        "https://docs.base.org/docs/privacy-policy",
+        "https://docs.base.org/docs/cookie-policy",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "About Base",
+          "content": "Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.\n\nBase is incubated within Coinbase and plans to progressively decentralize in the years ahead. We believe that decentralization is critical to creating an open, global cryptoeconomy that is accessible to everyone."
+        },
+        {
+          "heading": "Ethereum L2​",
+          "content": "Base is built as an Ethereum L2, with the security, stability, and scalability you need to power your onchain apps. Confidently deploy any EVM codebase and onramp your users and assets from Ethereum L1, Coinbase, and other interoperable chains."
+        },
+        {
+          "heading": "Big features, small fees​",
+          "content": "Get the EVM environment at a fraction of the cost. Get early access to Ethereum features like Account Abstraction (ERC4337), simple developer APIs for gasless transactions, and smart contract wallets."
+        },
+        {
+          "heading": "Open source​",
+          "content": "Base is built on the MIT-licensed OP Stack, in collaboration with Optimism. We're joining as the second Core Dev team working on the OP Stack to ensure it’s a public good available to everyone."
+        },
+        {
+          "heading": "Scaled by Coinbase​",
+          "content": "Base is an easy way for decentralized apps to leverage Coinbase's products and distribution. Seamless Coinbase integrations, easy fiat onramps, and access to millions of verified users in the Coinbase ecosystem."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/base-learn/docs/welcome",
+      "title": "Learn to Build Smart Contracts and Onchain Apps | Base",
+      "code_examples": [],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/base-learn/docs/help-on-discord",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/introduction-to-ethereum/intro-to-ethereum-vid",
+        "https://docs.base.org/base-learn/docs/development-tools/overview",
+        "https://docs.base.org/base-learn/docs/hardhat-setup-overview/hardhat-overview-vid",
+        "https://docs.base.org/tutorials/intro-to-foundry-setup",
+        "https://docs.base.org/base-learn/docs/introduction-to-solidity/introduction-to-solidity-overview",
+        "https://docs.base.org/base-learn/docs/intro-to-tokens/intro-to-tokens-vid",
+        "https://docs.base.org/base-learn/hardhat-tools-and-testing/overview",
+        "https://docs.base.org/base-learn/docs/frontend-setup/overview",
+        "https://docs.base.org/base-learn/docs/exercise-contracts",
+        "https://docs.base.org/tutorials/",
+        "https://docs.base.org/base-learn/docs/introduction-to-ethereum/ethereum-applications",
+        "https://docs.base.org/base-learn/docs/introduction-to-ethereum/gas-use-in-eth-transactions",
+        "https://docs.base.org/base-learn/docs/introduction-to-ethereum/evm-diagram",
+        "https://docs.base.org/base-learn/docs/hardhat-setup-overview/hardhat-setup-overview-sbs",
+        "https://docs.base.org/base-learn/docs/hardhat-testing/hardhat-testing-sbs",
+        "https://docs.base.org/base-learn/docs/etherscan/etherscan-sbs",
+        "https://docs.base.org/base-learn/docs/hardhat-deploy/hardhat-deploy-sbs",
+        "https://docs.base.org/base-learn/docs/hardhat-verify/hardhat-verify-sbs",
+        "https://docs.base.org/base-learn/docs/hardhat-forking/",
+        "https://docs.base.org/base-learn/docs/introduction-to-solidity/introduction-to-remix",
+        "https://docs.base.org/base-learn/docs/introduction-to-solidity/deployment-in-remix",
+        "https://docs.base.org/base-learn/docs/contracts-and-basic-functions/hello-world-step-by-step",
+        "https://docs.base.org/base-learn/docs/contracts-and-basic-functions/basic-types",
+        "https://docs.base.org/base-learn/docs/deployment-to-testnet/test-networks",
+        "https://docs.base.org/base-learn/docs/deployment-to-testnet/deployment-to-base-sepolia-sbs",
+        "https://docs.base.org/base-learn/docs/deployment-to-testnet/contract-verification-sbs",
+        "https://docs.base.org/base-learn/docs/control-structures/",
+        "https://docs.base.org/base-learn/docs/storage/simple-storage-sbs",
+        "https://docs.base.org/base-learn/docs/storage/how-storage-works",
+        "https://docs.base.org/base-learn/docs/arrays/arrays-in-solidity",
+        "https://docs.base.org/base-learn/docs/arrays/filtering-an-array-sbs",
+        "https://docs.base.org/base-learn/docs/mappings/mappings-sbs",
+        "https://docs.base.org/base-learn/docs/advanced-functions/function-visibility",
+        "https://docs.base.org/base-learn/docs/advanced-functions/function-modifiers",
+        "https://docs.base.org/base-learn/docs/structs/structs-sbs",
+        "https://docs.base.org/base-learn/docs/inheritance/inheritance-sbs",
+        "https://docs.base.org/base-learn/docs/inheritance/multiple-inheritance",
+        "https://docs.base.org/base-learn/docs/inheritance/abstract-contracts-sbs",
+        "https://docs.base.org/base-learn/docs/imports/imports-sbs",
+        "https://docs.base.org/base-learn/docs/error-triage/",
+        "https://docs.base.org/base-learn/docs/new-keyword/new-keyword-sbs",
+        "https://docs.base.org/base-learn/docs/interfaces/contract-to-contract-interaction",
+        "https://docs.base.org/base-learn/docs/events/hardhat-events-sbs",
+        "https://docs.base.org/base-learn/docs/address-and-payable/",
+        "https://docs.base.org/base-learn/docs/minimal-tokens/minimal-token-sbs",
+        "https://docs.base.org/base-learn/docs/erc-20-token/erc-20-standard",
+        "https://docs.base.org/base-learn/docs/erc-20-token/erc-20-token-sbs",
+        "https://docs.base.org/base-learn/docs/erc-721-token/erc-721-standard",
+        "https://docs.base.org/base-learn/docs/erc-721-token/erc-721-sbs",
+        "https://docs.base.org/base-learn/docs/frontend-setup/wallet-connectors",
+        "https://docs.base.org/base-learn/docs/frontend-setup/building-an-onchain-app",
+        "https://docs.base.org/base-learn/docs/reading-and-displaying-data/useAccount",
+        "https://docs.base.org/base-learn/docs/reading-and-displaying-data/useReadContract",
+        "https://docs.base.org/base-learn/docs/reading-and-displaying-data/configuring-useReadContract",
+        "https://docs.base.org/base-learn/docs/writing-to-contracts/useWriteContract",
+        "https://docs.base.org/base-learn/docs/writing-to-contracts/useSimulateContract",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "Learn to Build Smart Contracts and Onchain Apps",
+          "content": ""
+        },
+        {
+          "heading": "Introduction​",
+          "content": "Welcome to Base Learn, your guide to learning smart contract development. Base Learn's curriculum has been expertly crafted to equip you with the skills and knowledge needed to build and deploy smart contracts on Base, or any EVM-compatible chain, including Ethereum, Optimism, and many more. Plus, you'll be eligible to earn NFTs as you complete each module, showcasing your mastery of the material.\n\nWhether you're a curious novice or a seasoned pro looking to stay ahead of the game, our dynamic lessons cater to all levels of experience. You can start with the basics and work your way up, or dive straight into the more advanced concepts and push your limits to new heights.\n\nBegin your journey today!"
+        },
+        {
+          "heading": "What you can learn in this program​",
+          "content": "Base Learn covers the following topics. If you're looking for quickstarts, or deeper guides on advanced topics, check out our Base Builder Tutorials!"
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/tutorials",
+      "title": "Base Tutorials | Base",
+      "code_examples": [],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "Create a Basename Profile Component",
+          "content": "🖊️  hughescoin\n\nDec 6, 2024\n\n9 min read\n\nLearn how to create a component that displays social media and profile information for a given basename.\n\nfrontend\n\nidentity"
+        },
+        {
+          "heading": "Deploying a smart contract using Foundry",
+          "content": "🖊️  Tom Vieira\n\nDec 6, 2024\n\n17 min read\n\nA tutorial that teaches how to deploy a smart contract on the Base test network using Foundry. Includes instructions for setting up the environment, compiling, and deploying the smart contract.\n\nsmart contracts"
+        },
+        {
+          "heading": "Deploying a smart contract using Hardhat",
+          "content": "🖊️  Taylor Caldwell\n\nAug 14, 2024\n\n15 min read\n\nA tutorial that teaches how to deploy a smart contract on the Base test network using Hardhat. Includes instructions for setting up the environment, compiling, and deploying the smart contract.\n\nsmart contracts"
+        },
+        {
+          "heading": "Deploying a smart contract using Remix",
+          "content": "🖊️  Brian Doyle\n\nDec 10, 2024\n\n18 min read\n\nA tutorial that teaches how to deploy a smart contract on the Base test network using Remix IDE. Includes instructions for setting up the environment, compiling, and deploying the smart contract.\n\nsmart contracts"
+        },
+        {
+          "heading": "Deploying a smart contract using Tenderly",
+          "content": "🖊️  Tenderly\n\nJul 11, 2024\n\n19 min read\n\nA tutorial that teaches how to deploy smart contracts using Tenderly DevNets. This page covers setup, debugging, transaction simulations, and continuous integration for smart contract development on Base Network.\n\nsmart contracts"
+        },
+        {
+          "heading": "Deploying a smart contract using thirdweb",
+          "content": "🖊️  Taylor Caldwell\n\nJul 11, 2024\n\n10 min read\n\nA tutorial that teaches how to deploy and interact with smart contracts using the thirdweb CLI and SDK. Includes instructions for project creation, contract deployment on the Base test network.\n\nsmart contracts"
+        },
+        {
+          "heading": "Gasless Transactions on Base using a Paymaster",
+          "content": "🖊️  hughescoin\n\nDec 10, 2024\n\n27 min read\n\nLearn how to leverage the Base Paymaster for seamless, gasless transactions on the Coinbase Cloud Developer Platform.\n\naccount abstraction\n\nPaymaster"
+        },
+        {
+          "heading": "Introduction to Providers",
+          "content": "🖊️  Brian Doyle\n\nDec 10, 2024\n\n21 min read\n\nA tutorial that teaches what providers are, why you need one, and how to configure several providers and use them to connect to the blockchain.\n\nnodes\n\nfrontend"
+        },
+        {
+          "heading": "Running a Base Node",
+          "content": "🖊️  taycaldwell & wbnns\n\nDec 6, 2024\n\n7 min read\n\nA tutorial that teaches how to set up and run a Base Node.\n\nnodes"
+        },
+        {
+          "heading": "Farcaster Frames: Building HyperFrames",
+          "content": "🖊️  Brian Doyle\n\nAug 14, 2024\n\n16 min read\n\nA tutorial that teaches how to make cross-linked HyperFrames in an organized manner.\n\nframes\n\nOnchainKit"
+        },
+        {
+          "heading": "Coinbase Smart Wallet",
+          "content": "🖊️  Brian Doyle\n\nAug 14, 2024\n\n22 min read\n\nLearn to create an app that uses the Coinbase Smart Wallet and effectively manages assets and permissions for both native and new users of onchain apps\n\nnft\n\nSmart Wallet\n\nPaymaster"
+        },
+        {
+          "heading": "Use the Coinbase Smart Wallet and EOAs with OnchainKit",
+          "content": "🖊️  Brian Doyle\n\nAug 14, 2024\n\n10 min read\n\nLearn how to use OnchainKit to easily handle the Coinbase Smart Wallet and EOA wallets including the Coinbase wallet, at the same time.\n\naccount abstraction\n\nfrontend\n\nOnchainKit\n\nSmart Wallet"
+        },
+        {
+          "heading": "Coinbase Smart Wallet with RainbowKit",
+          "content": "🖊️  Brian Doyle\n\nAug 14, 2024\n\n11 min read\n\nLearn how to configure RainbowKit to elegantly handle the Coinbase Smart Wallet and EOA wallets including the Coinbase wallet, at the same time.\n\naccount abstraction\n\nfrontend\n\nSmart Wallet"
+        },
+        {
+          "heading": "Farcaster Frames: Building an NFT airdrop Frame",
+          "content": "🖊️  Brian Doyle\n\nDec 10, 2024\n\n23 min read\n\nA tutorial that teaches how to make a Farcaster Frame that allows you to mint and airdrop NFTs to users.\n\nframes\n\nnft\n\nOnchainKit"
+        },
+        {
+          "heading": "Farcaster Frames: Building a no-code minting Frame",
+          "content": "🖊️  Brian Doyle\n\nAug 14, 2024\n\n6 min read\n\nA tutorial that teaches how to make a Farcaster Frame with an outbound link to an NFT minting website.\n\nframes\n\nnft\n\nOnchainKit"
+        },
+        {
+          "heading": "Farcaster Frames: Deploying to Vercel",
+          "content": "🖊️  Brian Doyle\n\nAug 14, 2024\n\n9 min read\n\nA tutorial that teaches how to deploy a Farcaster Frame using Vercel.\n\nframes\n\nOnchainKit"
+        },
+        {
+          "heading": "Farcaster Frames: Gating content and creating redirects",
+          "content": "🖊️  Brian Doyle\n\nAug 14, 2024\n\n11 min read\n\nA tutorial that teaches how to create Frames with more advanced behaviors such as gating content based on a user's follows, likes, or recasts, and creating redirect buttons.\n\nframes\n\nOnchainKit"
+        },
+        {
+          "heading": "Farcaster Frames: Making transactions",
+          "content": "🖊️  Brian Doyle\n\nAug 14, 2024\n\n17 min read\n\nA tutorial that teaches how to invoke a wallet transaction from a Farcaster Frame.\n\nframes\n\nOnchainKit"
+        },
+        {
+          "heading": "Farcaster Cast Actions: Create a Simple Cast Action",
+          "content": "🖊️  Brian Doyle\n\nAug 14, 2024\n\n9 min read\n\nA tutorial that teaches how to make a simple Farcaster cast action.\n\nframes\n\nactions\n\nOnchainKit"
+        },
+        {
+          "heading": "Create a Custom Themed Swap Component with OnchainKit",
+          "content": "🖊️  hughescoin\n\nDec 6, 2024\n\n6 min read\n\nLearn how to implement a swap component with a custom theme using OnchainKit in your React application.\n\nfrontend\n\ndefi\n\nethereum\n\nbase"
+        },
+        {
+          "heading": "Verify a Smart Contract using Basescan API",
+          "content": "🖊️  hughescoin\n\nDec 10, 2024\n\n12 min read\n\nA tutorial that teaches how to verify a smart contract using Basescan APIs.\n\nsmart contracts"
+        },
+        {
+          "heading": "Simple Onchain NFTs",
+          "content": "🖊️  Brian Doyle\n\nDec 10, 2024\n\n26 min read\n\nA tutorial that teaches how to make simple nfts that are procedurally generated and have onchain metadata and images.\n\nnft"
+        },
+        {
+          "heading": "Complex Onchain NFTs",
+          "content": "🖊️  Brian Doyle\n\nAug 14, 2024\n\n39 min read\n\nA tutorial that teaches how to make complex nfts that are procedurally generated and have onchain metadata and images.\n\nnft"
+        },
+        {
+          "heading": "Signature Mint NFT",
+          "content": "🖊️  Brian Doyle\n\nAug 14, 2024\n\n19 min read\n\nA tutorial that teaches how to create a signature mint, in which minters pay their own gas, but must first be given a valid signed authorization.\n\nnft"
+        },
+        {
+          "heading": "Building an onchain app using thirdweb",
+          "content": "🖊️  Taylor Caldwell\n\nAug 14, 2024\n\n8 min read\n\nA tutorial that teaches how to build an NFT gallery app using thirdweb, including steps for creating an NFT collection, minting NFTs, and configuring the app for the Base testnet.\n\nsmart contracts\n\nnft"
+        },
+        {
+          "heading": "Thirdweb and Unreal - NFT Items",
+          "content": "🖊️  Brian Doyle\n\nSep 12, 2024\n\n37 min read\n\nLearn how to use NFTs as in-game items using Thirdweb and Unreal.\n\nnft\n\nsmart contracts"
+        },
+        {
+          "heading": "Building dynamic NFTs",
+          "content": "🖊️  Luke Cassady-Dorion\n\nSep 26, 2024\n\n14 min read\n\nA tutorial that teaches how to make dynamic NFTs that evolve based on onchain or offchain actions.\n\nnft"
+        },
+        {
+          "heading": "Create Email Marketing Campaigns Onchain using Coinbase Smart Wallet + Resend",
+          "content": "🖊️  hughescoin\n\nSep 12, 2024\n\n21 min read\n\nA tutorial that teaches how to create a mailing list and email customers using Resend\n\naccount abstraction"
+        },
+        {
+          "heading": "Gate IRL Events with Nouns",
+          "content": "🖊️  Brian Doyle\n\nAug 14, 2024\n\n19 min read\n\nLearn how to gate entry to an IRL event for members of a Nounish DAO.\n\nnft\n\nsmart contracts\n\nfrontend"
+        },
+        {
+          "heading": "How to Mint on Zora with an App",
+          "content": "🖊️  Brian Doyle\n\nDec 10, 2024\n\n18 min read\n\nLearn to use Zora contracts inside your app to create secure, efficient, and feature-rich minting experiences for your users.\n\nnft\n\nsmart wallet"
+        },
+        {
+          "heading": "Build a eCommerce App using Coinbase Commerce and OnchainKit",
+          "content": "🖊️  hughescoin\n\nDec 6, 2024\n\n10 min read\n\nLearn how to integrate Coinbase Commerce payments into your application using OnchainKit.\n\naccount abstraction"
+        },
+        {
+          "heading": "Build a Smart Wallet Funding app with OnchainKit",
+          "content": "🖊️  hughescoin\n\nDec 6, 2024\n\n8 min read\n\nLearn how to create a app that detects if a smart wallet has ETH and prompts users to add funds if needed.\n\nfrontend\n\nwallet\n\nethereum"
+        },
+        {
+          "heading": "Enable ERC-20 Gas Payments with Coinbase Paymaster",
+          "content": "🖊️  hughescoin\n\nDec 6, 2024\n\n11 min read\n\nLearn how to enable ERC-20 tokens as gas payment options for smart wallets using Coinbase Paymaster, improving UX and onboarding for your onchain application.\n\nbackend\n\nethereum\n\nbase\n\nerc20"
+        },
+        {
+          "heading": "How to Implement Base Paymaster into a Wagmi Project",
+          "content": "🖊️  hughescoin\n\nDec 6, 2024\n\n15 min read\n\nA tutorial to create a Mint button for free NFT minting with Base Paymaster sponsorship\n\nsmart wallets\n\nNFT minting\n\nWagmi integration"
+        },
+        {
+          "heading": "Account Abstraction on Base using Biconomy",
+          "content": "🖊️  Taylor Caldwell\n\nAug 14, 2024\n\n29 min read\n\nA tutorial that teaches how to implement Account Abstraction into a Base project using Biconomy paymasters, bundlers, and smart accounts.\n\naccount abstraction"
+        },
+        {
+          "heading": "Account Abstraction on Base using Particle Network",
+          "content": "🖊️  TABASCO\n\nAug 14, 2024\n\n34 min read\n\nA walkthrough on Particle Network's Modular Smart Wallet-as-a-Service, leveraging account abstraction and social logins across various providers.\n\naccount abstraction"
+        },
+        {
+          "heading": "Account Abstraction on Base using Privy and the Base Paymaster",
+          "content": "🖊️  Brian Doyle and Aaron Hayslip\n\nSep 12, 2024\n\n46 min read\n\nA tutorial that teaches how to implement Account Abstraction into a Base project using Privy and the Base paymaster.\n\naccount abstraction"
+        },
+        {
+          "heading": "Hardhat: Debugging smart contracts",
+          "content": "🖊️  Edson Alcala\n\nJul 19, 2024\n\n15 min read\n\nA tutorial that teaches how to debug your smart contracts using Hardhat.\n\nsmart contracts"
+        },
+        {
+          "heading": "Hardhat: Optimizing the gas usage of smart contracts",
+          "content": "🖊️  Edson Alcala and Brian Doyle\n\nJul 11, 2024\n\n16 min read\n\nA tutorial that teaches how to optimize the gas usage of your smart contracts using Hardhat.\n\nsmart contracts"
+        },
+        {
+          "heading": "Hardhat: Optimizing the size of smart contracts",
+          "content": "🖊️  Edson Alcala and Brian Doyle\n\nAug 14, 2024\n\n22 min read\n\nA tutorial that teaches how to optimize the size of your smart contracts using Hardhat.\n\nsmart contracts"
+        },
+        {
+          "heading": "Hardhat: Analyzing the test coverage of smart contracts",
+          "content": "🖊️  Edson Alcala\n\nJul 19, 2024\n\n9 min read\n\nA tutorial that teaches how to profile the test coverage of your smart contracts using Hardhat and the Solidity Coverage plugin.\n\nsmart contracts"
+        },
+        {
+          "heading": "Foundry: Setting up Foundry with Base",
+          "content": "🖊️  Edson Alcala\n\nSep 26, 2024\n\n6 min read\n\nA tutorial that teaches how to set up your development environment to work with Foundry.\n\nsmart contracts"
+        },
+        {
+          "heading": "Foundry: Testing smart contracts",
+          "content": "🖊️  Edson Alcala\n\nJul 11, 2024\n\n9 min read\n\nA tutorial that teaches how to test your smart contracts using Foundry.\n\nsmart contracts"
+        },
+        {
+          "heading": "Add Frames to A Basename",
+          "content": "🖊️  hughescoin\n\nSep 26, 2024\n\n5 min read\n\nLearn how to customize your Basename by adding Frames, showcasing dynamic content with ease on Base.\n\naccount abstraction\n\nPaymaster"
+        },
+        {
+          "heading": "Sending messages and tokens from Base to other chains using Chainlink CCIP",
+          "content": "🖊️  Taylor Caldwell\n\nAug 14, 2024\n\n32 min read\n\nA tutorial that teaches how to use Chainlink CCIP to perform cross-chain messaging and token transfers from Base Goerli testnet to Optimism Goerli testnet.\n\ncross-chain"
+        },
+        {
+          "heading": "Sending messages from Base to other chains using LayerZero V2",
+          "content": "🖊️  Taylor Caldwell\n\nDec 6, 2024\n\n34 min read\n\nA tutorial that teaches how to use LayerZero V2 to perform cross-chain messaging from Base Goerli testnet to Optimism Goerli testnet.\n\ncross-chain"
+        },
+        {
+          "heading": "Deploy an Onchain App with Fleek",
+          "content": "🖊️  Brian Doyle\n\nAug 14, 2024\n\n9 min read\n\nLearn how to deploy an onchain app using Fleek.\n\nfrontend"
+        },
+        {
+          "heading": "Convert Farcaster Frame to Open Frame using OnchainKit",
+          "content": "🖊️  hughescoin\n\nDec 6, 2024\n\n10 min read\n\nLearn how to convert your Farcaster Frame to an Open Frame using Onchain Kit, enabling broader compatibility and usage.\n\nfrontend"
+        },
+        {
+          "heading": "Accessing real-world data using Chainlink Data Feeds",
+          "content": "🖊️  Taylor Caldwell\n\nSep 26, 2024\n\n11 min read\n\nA tutorial that teaches how to use Chainlink Data Feeds to access real-world data, such as asset prices, directly from your smart contracts on the Base testnet.\n\noracles"
+        },
+        {
+          "heading": "Accessing real-time asset data using Pyth Price Feeds",
+          "content": "🖊️  Taylor Caldwell\n\nAug 14, 2024\n\n13 min read\n\nA tutorial that teaches how to use Pyth Price Feeds to access real-time asset data, directly from your smart contracts on the Base testnet.\n\noracles"
+        },
+        {
+          "heading": "Generating random numbers contracts using Supra dVRF",
+          "content": "🖊️  Taylor Caldwell\n\nAug 14, 2024\n\n19 min read\n\nA tutorial that teaches how to use Supra dVRF to serve random numbers using an onchain randomness generation mechanism directly within your smart contracts on the Base testnet.\n\noracles\n\nvrf"
+        },
+        {
+          "heading": "Deploy a Shopify Storefront with Coinbase Commerce",
+          "content": "🖊️  hughescoin\n\nSep 12, 2024\n\n8 min read\n\nLearn how to launch a Shopify storefront that uses Coinbase Commerce as a crypto payment gateway.\n\necommerce\n\ncrypto\n\nshopify\n\nonchain summer\n\nocs"
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/base-learn/progress",
+      "title": "Progress | Base",
+      "code_examples": [],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "Base Learn Progress",
+          "content": "Connect your wallet to view your Base Learn progress."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/tutorials/deploy-with-foundry",
+      "title": "Deploying a smart contract using Foundry | Base",
+      "code_examples": [
+        "mkdir myproject",
+        "cd myprojectforge init",
+        ".├── foundry.toml├── script │   └── Counter.s.sol├── src │   └── Counter.sol└── test    └── Counter.t.sol",
+        "// SPDX-License-Identifier: MITpragma solidity ^0.8.23;import \"openzeppelin-contracts/contracts/token/ERC721/ERC721.sol\";contract NFT is ERC721 {    uint256 public currentTokenId;    constructor() ERC721(\"NFT Name\", \"NFT\") {}    function mint(address recipient) public payable returns (uint256) {        uint256 newItemId = ++currentTokenId;        _safeMint(recipient, newItemId);        return newItemId;    }}",
+        "forge install openzeppelin/openzeppelin-contracts",
+        "forge build",
+        "cast wallet import deployer --interactive",
+        "cast wallet list",
+        "BASE_MAINNET_RPC=\"https://mainnet.base.org\"BASE_SEPOLIA_RPC=\"https://sepolia.base.org\"ETHERSCAN_API_KEY=\"<YOUR API KEY>\"",
+        "source .env",
+        "forge create ./src/NFT.sol:NFT --rpc-url $BASE_SEPOLIA_RPC --account deployer",
+        "forge create ./src/NFT.sol:NFT --rpc-url $BASE_MAINNET_RPC --account deployer",
+        "forge verify-contract <DEPLOYED_ADDRESS> ./src/NFT.sol:NFT --chain 84532 --watch",
+        "Start verifying contract `0x71bfCe1172A66c1c25A50b49156FAe45EB56E009` deployed on base-sepoliaSubmitting verification for [src/NFT.sol:NFT] 0x71bfCe1172A66c1c25A50b49156FAe45EB56E009.Submitted contract for verification:        Response: `OK`        GUID: `3i9rmtmtyyzkqpfvy7pcxj1wtgqyuybvscnq8d7ywfuskss1s7`        URL:        https://sepolia.basescan.org/address/0x71bfce1172a66c1c25a50b49156fae45eb56e009Contract verification status:Response: `NOTOK`Details: `Pending in queue`Contract verification status:Response: `OK`Details: `Pass - Verified`Contract successfully verified",
+        "Start verifying contract `0x71bfCe1172A66c1c25A50b49156FAe45EB56E009` deployed on base-sepoliaContract [src/NFT.sol:NFT] \"0x71bfCe1172A66c1c25A50b49156FAe45EB56E009\" is already verified. Skipping verification.",
+        "cast call <DEPLOYED_ADDRESS> --rpc-url $BASE_SEPOLIA_RPC \"balanceOf(address)\" <YOUR_ADDRESS_HERE>",
+        "cast send <DEPLOYED_ADDRESS> --rpc-url=$BASE_SEPOLIA_RPC \"mint(address)\" <YOUR_ADDRESS_HERE> --account deployer",
+        "cast call <DEPLOYED_ADDRESS> --rpc-url $BASE_SEPOLIA_RPC \"balanceOf(address)\" <YOUR_ADDRESS_HERE>"
+      ],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/tools/network-faucets",
+        "https://docs.base.org/docs/tools/block-explorers",
+        "https://docs.base.org/tutorials/tags/smart-contracts",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "Deploying a smart contract using Foundry",
+          "content": "This article will provide an overview of the Foundry development toolchain, and show you how to deploy a contract to Base Sepolia testnet.\n\nFoundry is a powerful suite of tools to develop, test, and debug your smart contracts. It comprises several individual tools:\n\nFoundry offers extremely fast feedback loops (due to the under-the-hood Rust implementation) and less context switching — because you'll be writing your contracts, tests, and deployment scripts All in Solidity!\n\nFor production / mainnet deployments the steps below in this tutorial will be almost identical, however, you'll want to ensure that you've configured Base (mainnet) as the network rather than Base Sepolia (testnet)."
+        },
+        {
+          "heading": "Objectives​",
+          "content": "By the end of this tutorial, you should be able to do the following:"
+        },
+        {
+          "heading": "Foundry​",
+          "content": "This tutorial requires you have Foundry installed.\n\nFor more information, see the Foundry Book installation guide."
+        },
+        {
+          "heading": "Coinbase Wallet​",
+          "content": "In order to deploy a smart contract, you will first need a web3 wallet. You can create a wallet by downloading the Coinbase Wallet browser extension."
+        },
+        {
+          "heading": "Wallet funds​",
+          "content": "Deploying contracts to the blockchain requires a gas fee. Therefore, you will need to fund your wallet with ETH to cover those gas fees.\n\nFor this tutorial, you will be deploying a contract to the Base Sepolia test network. You can fund your wallet with Base Sepolia ETH using one of the faucets listed on the Base Network Faucets page."
+        },
+        {
+          "heading": "Creating a project​",
+          "content": "Before you can begin deploying smart contracts to Base, you need to set up your development environment by creating a Foundry project.\n\nTo create a new Foundry project, first create a new directory:\n\nThen run:\n\nThis will create a Foundry project, which has the following basic layout:"
+        },
+        {
+          "heading": "Compiling the smart contract​",
+          "content": "Below is a simple NFT smart contract (ERC-721) written in the Solidity programming language:\n\nThe Solidity code above defines a smart contract named NFT. The code uses the ERC721 interface provided by the OpenZeppelin Contracts library to create an NFT smart contract. OpenZeppelin allows developers to leverage battle-tested smart contract implementations that adhere to official ERC standards.\n\nTo add the OpenZeppelin Contracts library to your project, run:\n\nIn your project, delete the src/Counter.sol contract that was generated with the project and add the above code in a new file called src/NFT.sol. (You can also delete the test/Counter.t.sol and script/Counter.s.sol files, but you should add your own tests ASAP!).\n\nTo compile our basic NFT contract using Foundry, run:"
+        },
+        {
+          "heading": "Configuring Foundry with Base​",
+          "content": "Next, you will configure your Foundry project to deploy smart contracts to the Base network. First you'll store your private key in an encrypted keystore, then you'll add Base as a network."
+        },
+        {
+          "heading": "Storing your private key​",
+          "content": "The following command will import your private key to Foundry's secure keystore. You will be prompted to enter your private key, as well as a password for signing transactions:\n\nFor instructions on how to get your private key from Coinbase Wallet, visit the Coinbase Wallet documentation. It is critical that you do NOT commit this to a public repo.\n\nRun this command to confirm that the 'deployer' account is setup in Foundry:"
+        },
+        {
+          "heading": "Adding Base as a network​",
+          "content": "When verifying a contract with BaseScan, you need an API key. You can get your BaseScan API key from here after you sign up for an account.\n\nAlthough they're made by the same folks, Etherscan API keys will not work on BaseScan!\n\nNow create a .env file in the home directory of your project to add the Base network and an API key for verifying your contract on BaseScan:\n\nNote that even though you're using BaseScan as your block explorer, Foundry expects the API key to be defined as ETHERSCAN_API_KEY."
+        },
+        {
+          "heading": "Loading environment variables​",
+          "content": "Now that you've created the above .env file, run the following command to load the environment variables in the current command line session:"
+        },
+        {
+          "heading": "Deploying the smart contract​",
+          "content": "With your contract compiled and your environment configured, you are ready to deploy to the Base Sepolia test network!\n\nToday, you'll use the forge create command, which is a straightforward way to deploy a single contract at a time. In the future, you may want to look into forge script, which enables scripting onchain transactions and deploying more complex smart contract projects.\n\nYou'll need testnet ETH in your wallet. See the prerequisites if you haven't done that yet. Otherwise, the deployment attempt will fail.\n\nTo deploy the contract to the Base Sepolia test network, run the following command. You will be prompted to enter the password that you set earlier, when you imported your private key:\n\nThe contract will be deployed on the Base Sepolia test network. You can view the deployment status and contract by using a block explorer and searching for the address returned by your deploy script. If you've deployed an exact copy of the NFT contract above, it will already be verified and you'll be able to read and write to the contract using the web interface.\n\nIf you'd like to deploy to mainnet, you'll modify the command like so:\n\nRegardless of the network you're deploying to, if you're deploying a new or modified contract, you'll need to verify it."
+        },
+        {
+          "heading": "Verifying the Smart Contract​",
+          "content": "In web3, it's considered best practice to verify your contracts so that users and other developers can inspect the source code, and be sure that it matches the deployed bytecode on the blockchain.\n\nFurther, if you want to allow others to interact with your contract using the block explorer, it first needs to be verified. The above contract has already been verified, so you should be able to view your version on a block explorer already, but we'll still walk through how to verify a contract on Base Sepolia testnet.\n\nRemember, you need an API key from BaseScan to verify your contracts. You can get your API key from the BaseScan site after you sign up for an account.\n\nGrab the deployed address and run:\n\nYou should see an output similar to:\n\nSearch for your contract on BaseScan to confirm it is verified.\n\nYou can't re-verify a contract identical to one that has already been verified. If you attempt to do so, such as verifying the above contract, you'll get an error similar to:"
+        },
+        {
+          "heading": "Interacting with the Smart Contract​",
+          "content": "If you verified on BaseScan, you can use the Read Contract and Write Contract sections under the Contract tab to interact with the deployed contract. To use Write Contract, you'll need to connect your wallet first, by clicking the Connect to Web3 button (sometimes this can be a little finicky, and you'll need to click Connect twice before it shows your wallet is successfully connected).\n\nTo practice using the cast command-line tool which Foundry provides, you'll perform a call without publishing a transaction (a read), then sign and publish a transaction (a write)."
+        },
+        {
+          "heading": "Performing a call​",
+          "content": "A key component of the Foundry toolkit, cast enables us to interact with contracts, send transactions, and get onchain data using Ethereum RPC calls. First you will perform a call from your account, without publishing a transaction.\n\nFrom the command-line, run:\n\nYou should receive 0x0000000000000000000000000000000000000000000000000000000000000000 in response, which equals 0 in hexadecimal. And that makes sense — while you've deployed the NFT contract, no NFTs have been minted yet and therefore your account's balance is zero."
+        },
+        {
+          "heading": "Signing and publishing a transaction​",
+          "content": "Now, sign and publish a transaction, calling the mint(address) function on the NFT contract you just deployed.\n\nRun the following command:\n\nNote that in this cast send command, you had to include your private key, but this is not required for cast call, because that's for calling view-only contract functions and therefore you don't need to sign anything.\n\nIf successful, Foundry will respond with information about the transaction, including the blockNumber, gasUsed, and transactionHash.\n\nFinally, let's confirm that you did indeed mint yourself one NFT. If you run the first cast call command again, you should see that your balance increased from 0 to 1:\n\nAnd the response: 0x0000000000000000000000000000000000000000000000000000000000000001 (1 in hex) — congratulations, you deployed a contract and minted an NFT with Foundry!"
+        },
+        {
+          "heading": "Conclusion​",
+          "content": "Phew, that was a lot! You learned how to setup a project, deploy to Base, and interact with our smart contract using Foundry. The process is the same for real networks, just more expensive — and of course, you'll want to invest time and effort testing your contracts, to reduce the likelihood of user-impacting bugs before deploying.\n\nFor all things Foundry, check out the Foundry book, or head to the official Telegram dev chat or support chat."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/tutorials/run-a-base-node",
+      "title": "Running a Base Node | Base",
+      "code_examples": [
+        "curl -d '{\"id\":0,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"latest\",false]}' \\  -H \"Content-Type: application/json\" http://localhost:8545",
+        "cd ..docker compose up --build",
+        "echo Latest synced block behind by: $((($(date +%s)-$( \\  curl -d '{\"id\":0,\"jsonrpc\":\"2.0\",\"method\":\"optimism_syncStatus\"}' \\  -H \"Content-Type: application/json\" http://localhost:7545 | \\  jq -r .result.unsafe_l2.timestamp))/60)) minutes"
+      ],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/tutorials/tags/nodes",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "Running a Base Node",
+          "content": "This tutorial will walk you through setting up your own Base Node."
+        },
+        {
+          "heading": "Objectives​",
+          "content": "By the end of this tutorial you should be able to:"
+        },
+        {
+          "heading": "Prerequisites​",
+          "content": "Running a node is time consuming, resource expensive, and potentially costly. If you don't already know why you want to run your own node, you probably don't need to.\n\nIf you're just getting started and need an RPC URL, you can use our free endpoints:\n\nNote: Our RPCs are rate-limited, they are not suitable for production apps.\n\nIf you're looking to harden your app and avoid rate-limiting for your users, please check out one of our partners."
+        },
+        {
+          "heading": "Hardware requirements​",
+          "content": "We recommend you have this configuration to run a node:\n\nIf utilizing Amazon Elastic Block Store (EBS), ensure timing buffered disk reads are fast enough in order to avoid latency issues alongside the rate of new blocks added to Base during the initial synchronization process; io2 block express is recommended."
+        },
+        {
+          "heading": "Docker​",
+          "content": "This tutorial assumes you are familiar with Docker and have it running on your machine."
+        },
+        {
+          "heading": "L1 RPC URL​",
+          "content": "You'll need your own L1 RPC URL. This can be one that you run yourself, or via a third-party provider, such as our partners."
+        },
+        {
+          "heading": "Running a Node​",
+          "content": "Syncing your node may take days and will consume a vast amount of your requests quota. Be sure to monitor usage and up your plan if needed."
+        },
+        {
+          "heading": "Snapshots​",
+          "content": "If you're a prospective or current Base Node operator and would like to restore from a snapshot to save time on the initial sync, it's possible to always get the latest available snapshot of the Base chain on mainnet and/or testnet by using the following CLI commands. The snapshots are updated every week."
+        },
+        {
+          "heading": "Restoring from snapshot​",
+          "content": "In the home directory of your Base Node, create a folder named geth-data or reth-data. If you already have this folder, remove it to clear the existing state and then recreate it. Next, run the following code and wait for the operation to complete.\n\nWe will be deprecating the Public Geth Archive Snapshots on December 15th, 2024 and recommend switching to Reth going forward. We will continue to maintain the Reth archive snapshot.\n\nYou'll then need to untar the downloaded snapshot and place the geth subfolder inside of it in the geth-data folder you created (unless you changed the location of your data directory).\n\nReturn to the root of your Base node folder and start your node.\n\nYour node should begin syncing from the last block in the snapshot.\n\nCheck the latest block to make sure you're syncing from the snapshot and that it restored correctly. If so, you can remove the snapshot archive that you downloaded."
+        },
+        {
+          "heading": "Syncing​",
+          "content": "You can monitor the progress of your sync with:\n\nYou'll also know that the sync hasn't completed if you get Error: nonce has already been used if you try to deploy using your node."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/tutorials/build-with-thirdweb",
+      "title": "Building an onchain app using thirdweb | Base",
+      "code_examples": [
+        "npx thirdweb create --template nft-gallery",
+        "import React from \"react\";import ReactDOM from \"react-dom/client\";import App from \"./App\";import \"./index.css\";import { ThirdwebProvider } from \"@thirdweb-dev/react\";import { BaseSepoliaTestnet } from \"@thirdweb-dev/chains\";ReactDOM.createRoot(document.getElementById(\"root\") as HTMLElement).render(  <React.StrictMode>    <ThirdwebProvider activeChain={BaseSepoliaTestnet}>      <App />    </ThirdwebProvider>  </React.StrictMode>,);",
+        "yarn dev"
+      ],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/tools/network-faucets",
+        "https://docs.base.org/tutorials/tags/smart-contracts",
+        "https://docs.base.org/tutorials/tags/nft",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "Building an onchain app using thirdweb",
+          "content": "In this tutorial you will learn how to build an app on Base using the thirdweb platform.\n\nTo achieve this, you will deploy a smart contract for a NFT collection and create an NFT gallery app for viewing the metadata details of each NFT within the collection."
+        },
+        {
+          "heading": "Objectives​",
+          "content": "By the end of this tutorial, you should be able to:"
+        },
+        {
+          "heading": "1. Setting Up a Coinbase Wallet​",
+          "content": "To begin developing an app on Base, you first need to set up a web3 wallet. We recommend using the Coinbase Wallet, which can be easily created by downloading the Coinbase Wallet browser extension.\n\nDownload Coinbase Wallet"
+        },
+        {
+          "heading": "2. Wallet Funding​",
+          "content": "Blockchain transactions, including deploying smart contracts, necessitate a gas fee. Therefore, you will need to fund your wallet with ETH to cover those gas fees.\n\nFor this tutorial, you will be deploying a contract to the Base Sepolia test network. You can fund your wallet with Base Sepolia ETH using one of the faucets listed on the Base Network Faucets page."
+        },
+        {
+          "heading": "Creating an NFT Collection​",
+          "content": "Before developing an app, you need to create an NFT collection via thirdweb.\n\nFollow these steps to set up your NFT collection:\n\n\n\nFor production / mainnet deployments select Base (mainnet) as the network rather than Base Sepolia.\n\nPost-deployment, you can manage your smart contract via the thirdweb dashboard.\n\nCurrently, your NFT Collection lacks NFTs. To populate our upcoming NFT Gallery app, we will need to create several NFTs.\n\nFollow the steps below to mint new NFTs:\n\nRepeat these steps to mint as many NFTs as you'd like.\n\n"
+        },
+        {
+          "heading": "Building an NFT Gallery App​",
+          "content": "With an NFT Collection in place, it's time to construct an NFT Gallery App. The thirdweb CLI provides various prebuilt and starter templates for popular app use-cases, which can significantly expedite your app development process.\n\nIn this tutorial, we'll use the thirdweb CLI to generate a new app project using the NFT Gallery template.\n\nRun the following command:\n\nBy default, the template is configured for an NFT collection on the Ethereum Mainnet. We will modify the code to adapt our NFT collection on the Base Sepolia Testnet.\n\nFollow these steps to update the template:\n\nThe above code imports and uses BaseSepoliaTestnet to be the activeChain.\n\nFor production / mainnet deployments, update the information above so that the chain variable is base (step ii), the blockExplorer is https://basescan.org (step iii), and update both instances of BaseSepoliaTestnet to Base in the example javascript code."
+        },
+        {
+          "heading": "Running the Application​",
+          "content": "With the updated Base Sepolia Testnet chain and your NFT collection's address, you can view your NFT collection from the application.\n\nTo start the application, run the following command from the root directory:"
+        },
+        {
+          "heading": "Conclusion​",
+          "content": "Congratulations on reaching the end of this tutorial! You've now learned how to create an NFT collection using Thirdweb, mint new NFTs, and build an NFT gallery app on the Base blockchain!\n\nAs a next step, check out other prebuilt smart contracts and starter templates provided by the thirdweb platform that can help you build your next onchain app on Base."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/tutorials/oracles-chainlink-price-feeds",
+      "title": "Accessing real-world data using Chainlink Data Feeds | Base",
+      "code_examples": [
+        "mkdir myproject",
+        "cd myprojectforge init",
+        ".├── foundry.toml├── script │   └── Counter.s.sol├── src │   └── Counter.sol└── test    └── Counter.t.sol",
+        "forge install smartcontractkit/chainlink --no-commit",
+        "remappings = ['@chainlink/contracts/=lib/chainlink/contracts']",
+        "// SPDX-License-Identifier: MIT   pragma solidity ^0.8.0;   import \"@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol\";   contract DataConsumerV3 {       AggregatorV3Interface internal priceFeed;      /**       * Network: Base Goerli       * Aggregator: ETH/USD       * Address: 0xcD2A119bD1F7DF95d706DE6F2057fDD45A0503E2       */       constructor() {           priceFeed = AggregatorV3Interface(0xcD2A119bD1F7DF95d706DE6F2057fDD45A0503E2);       }       function getLatestPrice() public view returns (int) {           (               /* uint80 roundID */,               int price,               /* uint startedAt */,               /* uint timeStamp */,               /* uint80 answeredInRound */           ) = priceFeed.latestRoundData();           return price;       }   }",
+        "forge build",
+        "cast wallet import deployer --interactive",
+        "cast wallet list",
+        "BASE_GOERLI_RPC=\"https://goerli.base.org\"",
+        "source .env",
+        "forge create ./src/DataConsumerV3.sol:DataConsumerV3 --rpc-url $BASE_GOERLI_RPC --account deployer",
+        "cast call <DEPLOYED_ADDRESS> --rpc-url $BASE_GOERLI_RPC \"getLatestPrice()\""
+      ],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/tools/network-faucets",
+        "https://docs.base.org/docs/tools/block-explorers",
+        "https://docs.base.org/tools/oracles",
+        "https://docs.base.org/tutorials/tags/oracles",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "Accessing real-world data using Chainlink Data Feeds",
+          "content": "This tutorial will guide you through the process of creating a smart contract on Base that utilizes Chainlink Data Feeds to access real-world data, such as asset prices, directly from your smart contracts."
+        },
+        {
+          "heading": "Objectives​",
+          "content": "By the end of this tutorial you should be able to do the following:"
+        },
+        {
+          "heading": "Foundry​",
+          "content": "This tutorial requires you to have Foundry installed.\n\nFor more information, see the Foundry Book installation guide."
+        },
+        {
+          "heading": "Coinbase Wallet​",
+          "content": "In order to deploy a smart contract, you will first need a wallet. You can create a wallet by downloading the Coinbase Wallet browser extension."
+        },
+        {
+          "heading": "Wallet funds​",
+          "content": "Deploying contracts to the blockchain requires a gas fee. Therefore, you will need to fund your wallet with ETH to cover those gas fees.\n\nFor this tutorial, you will be deploying a contract to the Base Goerli test network. You can fund your wallet with Base Goerli ETH using one of the faucets listed on the Base Network Faucets page."
+        },
+        {
+          "heading": "What are Chainlink Data Feeds?​",
+          "content": "Accurate price data is essential in DeFi applications. However, blockchain networks lack the capability to directly fetch external real-world data, leading to the \"Oracle Problem\".\n\nChainlink Data Feeds offer a solution to this problem by serving as a secure middleware layer that bridges the gap between real-world asset prices and onchain smart contracts."
+        },
+        {
+          "heading": "Creating a project​",
+          "content": "Before you can begin writing smart contracts for Base and consuming Chainlink data feeds, you need to set up your development environment by creating a Foundry project.\n\nTo create a new Foundry project, first create a new directory:\n\nThen run:\n\nThis will create a Foundry project, which has the following basic layout:"
+        },
+        {
+          "heading": "Installing Chainlink smart contracts​",
+          "content": "To use Chainlink's data feeds within your project, you need to install Chainlink smart contracts as a project dependency using forge install.\n\nTo install Chainlink smart contracts, run:\n\nOnce installed, update your foundry.toml file by appending the following line:"
+        },
+        {
+          "heading": "Writing and compiling the Smart Contract​",
+          "content": "Once your project has been created and dependencies have been installed, you can now start writing a smart contract.\n\nThe Solidity code below defines a smart contract named DataConsumerV3. The code uses the AggregatorV3Interface interface from the Chainlink contracts library to provide access to price feed data.\n\nThe smart contract passes an address to AggregatorV3Interface. This address (0xcD2A119bD1F7DF95d706DE6F2057fDD45A0503E2) corresponds to the ETH/USD price feed on the Base Goerli network.\n\nChainlink provides a number of price feeds for Base. For a list of available price feeds on Base, visit the Chainlink documentation.\n\nIn your project, add the code provided above to a new file named src/DataConsumerV3.sol, and delete the src/Counter.sol contract that was generated with the project. (you can also delete the test/Counter.t.sol and script/Counter.s.sol files).\n\nTo compile the new smart contract, run:"
+        },
+        {
+          "heading": "Setting up your wallet as the deployer​",
+          "content": "Before you can deploy your smart contract to the Base network, you will need to set up a wallet to be used as the deployer.\n\nTo do so, you can use the cast wallet import command to import the private key of the wallet into Foundry's securely encrypted keystore:\n\nAfter running the command above, you will be prompted to enter your private key, as well as a password for signing transactions.\n\nFor instructions on how to get your private key from Coinbase Wallet, visit the Coinbase Wallet documentation.\n\nIt is critical that you do NOT commit this to a public repo.\n\nTo confirm that the wallet was imported as the deployer account in your Foundry project, run:"
+        },
+        {
+          "heading": "Setting up environment variables for Base Goerli​",
+          "content": "To setup your environment for deploying to the Base network, create an .env file in the home directory of your project, and add the RPC URL for the Base Goerli testnet:\n\nOnce the .env file has been created, run the following command to load the environment variables in the current command line session:"
+        },
+        {
+          "heading": "Deploying the smart contract to Base Goerli​",
+          "content": "With your contract compiled and environment setup, you are ready to deploy the smart contract to the Base Goerli Testnet!\n\nFor deploying a single smart contract using Foundry, you can use the forge create command. The command requires you to specify the smart contract you want to deploy, an RPC URL of the network you want to deploy to, and the account you want to deploy with.\n\nTo deploy the DataConsumerV3 smart contract to the Base Goerli test network, run the following command:\n\nWhen prompted, enter the password that you set earlier, when you imported your wallet's private key.\n\nYour wallet must be funded with ETH on the Base Goerli Testnet to cover the gas fees associated with the smart contract deployment. Otherwise, the deployment will fail.\n\nTo get testnet ETH for Base Goerli, see the prerequisites.\n\nAfter running the command above, the contract will be deployed on the Base Goerli test network. You can view the deployment status and contract by using a block explorer."
+        },
+        {
+          "heading": "Interacting with the Smart Contract​",
+          "content": "Foundry provides the cast command-line tool that can be used to interact with the smart contract that was deployed and call the getLatestPrice() function to fetch the latest price of ETH.\n\nTo call the getLatestPrice() function of the smart contract, run:\n\nYou should receive the latest ETH / USD price in hexadecimal form."
+        },
+        {
+          "heading": "Conclusion​",
+          "content": "Congratulations! You have successfully deployed and interacted with a smart contract that consumes a Chainlink price feed on the Base blockchain network.\n\nTo learn more about Oracles and using Chainlink to access real-world data within your smart contracts on Base, check out the following resources:"
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/docs/",
+      "title": "About Base | Base",
+      "code_examples": [],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/docs/",
+        "https://docs.base.org/docs/using-base",
+        "https://docs.base.org/docs/decomissioning-public-geth-archive-snapshots",
+        "https://docs.base.org/docs/quickstart",
+        "https://docs.base.org/docs/network-information",
+        "https://docs.base.org/docs/base-contracts",
+        "https://docs.base.org/docs/fees",
+        "https://docs.base.org/docs/differences",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/docs/tools/block-explorers",
+        "https://docs.base.org/docs/tools/network-faucets",
+        "https://docs.base.org/docs/tools/oracles",
+        "https://docs.base.org/docs/tools/data-indexers",
+        "https://docs.base.org/docs/tools/cross-chain",
+        "https://docs.base.org/docs/tools/account-abstraction",
+        "https://docs.base.org/docs/tools/onramps",
+        "https://docs.base.org/docs/tools/onboarding",
+        "https://docs.base.org/docs/tools/bridges",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/basenames-faq",
+        "https://docs.base.org/docs/tools/foundry",
+        "https://docs.base.org/docs/tools/ethers",
+        "https://docs.base.org/docs/tokens/list",
+        "https://docs.base.org/docs/tokens/wallet",
+        "https://docs.base.org/docs/contracts",
+        "https://docs.base.org/docs/security/bounty",
+        "https://docs.base.org/docs/security/report",
+        "https://docs.base.org/docs/security/app-blocklist",
+        "https://docs.base.org/docs/terms-of-service",
+        "https://docs.base.org/docs/privacy-policy",
+        "https://docs.base.org/docs/cookie-policy",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "About Base",
+          "content": "Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.\n\nBase is incubated within Coinbase and plans to progressively decentralize in the years ahead. We believe that decentralization is critical to creating an open, global cryptoeconomy that is accessible to everyone."
+        },
+        {
+          "heading": "Ethereum L2​",
+          "content": "Base is built as an Ethereum L2, with the security, stability, and scalability you need to power your onchain apps. Confidently deploy any EVM codebase and onramp your users and assets from Ethereum L1, Coinbase, and other interoperable chains."
+        },
+        {
+          "heading": "Big features, small fees​",
+          "content": "Get the EVM environment at a fraction of the cost. Get early access to Ethereum features like Account Abstraction (ERC4337), simple developer APIs for gasless transactions, and smart contract wallets."
+        },
+        {
+          "heading": "Open source​",
+          "content": "Base is built on the MIT-licensed OP Stack, in collaboration with Optimism. We're joining as the second Core Dev team working on the OP Stack to ensure it’s a public good available to everyone."
+        },
+        {
+          "heading": "Scaled by Coinbase​",
+          "content": "Base is an easy way for decentralized apps to leverage Coinbase's products and distribution. Seamless Coinbase integrations, easy fiat onramps, and access to millions of verified users in the Coinbase ecosystem."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/docs/using-base",
+      "title": "Using Base | Base",
+      "code_examples": [],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/docs/",
+        "https://docs.base.org/docs/using-base",
+        "https://docs.base.org/docs/decomissioning-public-geth-archive-snapshots",
+        "https://docs.base.org/docs/quickstart",
+        "https://docs.base.org/docs/network-information",
+        "https://docs.base.org/docs/base-contracts",
+        "https://docs.base.org/docs/fees",
+        "https://docs.base.org/docs/differences",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/docs/tools/block-explorers",
+        "https://docs.base.org/docs/tools/network-faucets",
+        "https://docs.base.org/docs/tools/oracles",
+        "https://docs.base.org/docs/tools/data-indexers",
+        "https://docs.base.org/docs/tools/cross-chain",
+        "https://docs.base.org/docs/tools/account-abstraction",
+        "https://docs.base.org/docs/tools/onramps",
+        "https://docs.base.org/docs/tools/onboarding",
+        "https://docs.base.org/docs/tools/bridges",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/basenames-faq",
+        "https://docs.base.org/docs/tools/foundry",
+        "https://docs.base.org/docs/tools/ethers",
+        "https://docs.base.org/docs/tokens/list",
+        "https://docs.base.org/docs/tokens/wallet",
+        "https://docs.base.org/docs/contracts",
+        "https://docs.base.org/docs/security/bounty",
+        "https://docs.base.org/docs/security/report",
+        "https://docs.base.org/docs/security/app-blocklist",
+        "https://docs.base.org/docs/terms-of-service",
+        "https://docs.base.org/docs/privacy-policy",
+        "https://docs.base.org/docs/cookie-policy",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "Coinbase Wallet​",
+          "content": "The Coinbase Wallet browser extension provides support for Base by default.\n\nTo use Base with Coinbase Wallet:\n\nYour active network should now be switched to Base."
+        },
+        {
+          "heading": "Other wallets​",
+          "content": "Base can be added as a custom network to any EVM-compatible wallet (i.e. MetaMask)."
+        },
+        {
+          "heading": "MetaMask​",
+          "content": "To add Base as a custom network to MetaMask:\n\nOpen the MetaMask browser extension.\n\nOpen the network selection dropdown menu by clicking the dropdown button at the top of the extension.\n\nClick the Add network button.\n\nClick Add a network manually.\n\nIn the Add a network manually dialog that appears, enter the following information for Base mainnet:\n\nTap the Save button to save Base as a network.\n\nYou should now be able to connect to the Base by selecting it from the network selection dropdown menu."
+        },
+        {
+          "heading": "Coinbase Wallet browser extension provides support for Base Sepolia testnet by default.​",
+          "content": "To use Base Sepolia with Coinbase Wallet:\n\nYour active network should now be switched to Base testnet."
+        },
+        {
+          "heading": "Other wallets​",
+          "content": "Base Sepolia can be added as a custom network to any EVM-compatible wallet (e.g., MetaMask)."
+        },
+        {
+          "heading": "MetaMask​",
+          "content": "To add Base Sepolia as a custom network in MetaMask:\n\nOpen the MetaMask browser extension.\n\nOpen the network selection dropdown menu by clicking the dropdown button at the top of the extension.\n\nClick the Add network button.\n\nClick Add a network manually.\n\nIn the Add a network manually dialog that appears, enter the following information for the Base Sepolia testnet:\n\nTap the Save button to save Base Sepolia as a network.\n\nYou should now be able to connect to the Base testnet by selecting it from the network selection dropdown menu."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/docs/network-information",
+      "title": "Network Information | Base",
+      "code_examples": [],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/docs/",
+        "https://docs.base.org/docs/using-base",
+        "https://docs.base.org/docs/decomissioning-public-geth-archive-snapshots",
+        "https://docs.base.org/docs/quickstart",
+        "https://docs.base.org/docs/network-information",
+        "https://docs.base.org/docs/base-contracts",
+        "https://docs.base.org/docs/fees",
+        "https://docs.base.org/docs/differences",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/docs/tools/block-explorers",
+        "https://docs.base.org/docs/tools/network-faucets",
+        "https://docs.base.org/docs/tools/oracles",
+        "https://docs.base.org/docs/tools/data-indexers",
+        "https://docs.base.org/docs/tools/cross-chain",
+        "https://docs.base.org/docs/tools/account-abstraction",
+        "https://docs.base.org/docs/tools/onramps",
+        "https://docs.base.org/docs/tools/onboarding",
+        "https://docs.base.org/docs/tools/bridges",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/basenames-faq",
+        "https://docs.base.org/docs/tools/foundry",
+        "https://docs.base.org/docs/tools/ethers",
+        "https://docs.base.org/docs/tokens/list",
+        "https://docs.base.org/docs/tokens/wallet",
+        "https://docs.base.org/docs/contracts",
+        "https://docs.base.org/docs/security/bounty",
+        "https://docs.base.org/docs/security/report",
+        "https://docs.base.org/docs/security/app-blocklist",
+        "https://docs.base.org/docs/terms-of-service",
+        "https://docs.base.org/docs/privacy-policy",
+        "https://docs.base.org/docs/cookie-policy",
+        "https://docs.base.org/docs/base-contracts",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/tutorials/run-a-base-node",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "Base Testnet (Sepolia)​",
+          "content": "L1 & L2 protocol and network-related smart contract deployments can be found on the Base Contracts page.\n\nFor production systems, we recommend using a node from one of our node partners, or running your own Base node."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/docs/base-contracts",
+      "title": "Base Contracts | Base",
+      "code_examples": [],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/docs/",
+        "https://docs.base.org/docs/using-base",
+        "https://docs.base.org/docs/decomissioning-public-geth-archive-snapshots",
+        "https://docs.base.org/docs/quickstart",
+        "https://docs.base.org/docs/network-information",
+        "https://docs.base.org/docs/base-contracts",
+        "https://docs.base.org/docs/fees",
+        "https://docs.base.org/docs/differences",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/docs/tools/block-explorers",
+        "https://docs.base.org/docs/tools/network-faucets",
+        "https://docs.base.org/docs/tools/oracles",
+        "https://docs.base.org/docs/tools/data-indexers",
+        "https://docs.base.org/docs/tools/cross-chain",
+        "https://docs.base.org/docs/tools/account-abstraction",
+        "https://docs.base.org/docs/tools/onramps",
+        "https://docs.base.org/docs/tools/onboarding",
+        "https://docs.base.org/docs/tools/bridges",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/basenames-faq",
+        "https://docs.base.org/docs/tools/foundry",
+        "https://docs.base.org/docs/tools/ethers",
+        "https://docs.base.org/docs/tokens/list",
+        "https://docs.base.org/docs/tokens/wallet",
+        "https://docs.base.org/docs/contracts",
+        "https://docs.base.org/docs/security/bounty",
+        "https://docs.base.org/docs/security/report",
+        "https://docs.base.org/docs/security/app-blocklist",
+        "https://docs.base.org/docs/terms-of-service",
+        "https://docs.base.org/docs/privacy-policy",
+        "https://docs.base.org/docs/cookie-policy",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "Base Testnet (Sepolia)​",
+          "content": "*L2 contract addresses are the same on both mainnet and testnet."
+        },
+        {
+          "heading": "Ethereum Mainnet​",
+          "content": "Unneeded contract addresses\n\nCertain contracts are mandatory according to the OP Stack SDK, despite not being utilized. For such contracts, you can simply assign the zero address:"
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/docs/fees",
+      "title": "Fees | Base",
+      "code_examples": [],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/docs/",
+        "https://docs.base.org/docs/using-base",
+        "https://docs.base.org/docs/decomissioning-public-geth-archive-snapshots",
+        "https://docs.base.org/docs/quickstart",
+        "https://docs.base.org/docs/network-information",
+        "https://docs.base.org/docs/base-contracts",
+        "https://docs.base.org/docs/fees",
+        "https://docs.base.org/docs/differences",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/docs/tools/block-explorers",
+        "https://docs.base.org/docs/tools/network-faucets",
+        "https://docs.base.org/docs/tools/oracles",
+        "https://docs.base.org/docs/tools/data-indexers",
+        "https://docs.base.org/docs/tools/cross-chain",
+        "https://docs.base.org/docs/tools/account-abstraction",
+        "https://docs.base.org/docs/tools/onramps",
+        "https://docs.base.org/docs/tools/onboarding",
+        "https://docs.base.org/docs/tools/bridges",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/basenames-faq",
+        "https://docs.base.org/docs/tools/foundry",
+        "https://docs.base.org/docs/tools/ethers",
+        "https://docs.base.org/docs/tokens/list",
+        "https://docs.base.org/docs/tokens/wallet",
+        "https://docs.base.org/docs/contracts",
+        "https://docs.base.org/docs/security/bounty",
+        "https://docs.base.org/docs/security/report",
+        "https://docs.base.org/docs/security/app-blocklist",
+        "https://docs.base.org/docs/terms-of-service",
+        "https://docs.base.org/docs/privacy-policy",
+        "https://docs.base.org/docs/cookie-policy",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "How do network fees on Base work?​",
+          "content": "Every Base transaction consists of two costs: an L2 (execution) fee and an L1\n(security) fee. The L2 fee is the cost to execute your transaction on the L2,\nand the L1 fee is the estimated cost to publish the transaction on the L1.\nTypically the L1 security fee is higher than the L2 execution fee.\n\nThe L1 fee will vary depending on the amount of transactions on the L1. If the\ntiming of your transaction is flexible, you can save costs by submitting\ntransactions during periods of lower gas on the L1 (for example, over the\nweekend)\n\nSimilarly, the L2 fee can increase and decrease depending on how many\ntransactions are being submitted to the L2. This adjustment mechanism has the\nsame implementation as the L1; you can read more about it\nhere.\n\nFor additional details about fee calculation on Base, please refer to the\nop-stack developer\ndocumentation."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/docs/differences",
+      "title": "Differences between Ethereum and Base | Base",
+      "code_examples": [],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/docs/",
+        "https://docs.base.org/docs/using-base",
+        "https://docs.base.org/docs/decomissioning-public-geth-archive-snapshots",
+        "https://docs.base.org/docs/quickstart",
+        "https://docs.base.org/docs/network-information",
+        "https://docs.base.org/docs/base-contracts",
+        "https://docs.base.org/docs/fees",
+        "https://docs.base.org/docs/differences",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/docs/tools/block-explorers",
+        "https://docs.base.org/docs/tools/network-faucets",
+        "https://docs.base.org/docs/tools/oracles",
+        "https://docs.base.org/docs/tools/data-indexers",
+        "https://docs.base.org/docs/tools/cross-chain",
+        "https://docs.base.org/docs/tools/account-abstraction",
+        "https://docs.base.org/docs/tools/onramps",
+        "https://docs.base.org/docs/tools/onboarding",
+        "https://docs.base.org/docs/tools/bridges",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/basenames-faq",
+        "https://docs.base.org/docs/tools/foundry",
+        "https://docs.base.org/docs/tools/ethers",
+        "https://docs.base.org/docs/tokens/list",
+        "https://docs.base.org/docs/tokens/wallet",
+        "https://docs.base.org/docs/contracts",
+        "https://docs.base.org/docs/security/bounty",
+        "https://docs.base.org/docs/security/report",
+        "https://docs.base.org/docs/security/app-blocklist",
+        "https://docs.base.org/docs/terms-of-service",
+        "https://docs.base.org/docs/privacy-policy",
+        "https://docs.base.org/docs/cookie-policy",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "Differences between Ethereum and Base",
+          "content": "Base is built on the Bedrock release of the OP Stack, which is designed from the ground up to be as close to Ethereum as possible. Because of this, there are very few differences when it comes to building on Base and Ethereum.\n\nHowever, there are still some minor discrepancies between the behavior of Base and Ethereum that you should be aware of when building apps on top of Base.\n\nThese minor differences include:"
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/docs/tools/registry-api/",
+      "title": "Onchain Registry API | Base",
+      "code_examples": [
+        "\"data\": [        {            \"id\": \"7AsRdN8uf601fCkH1e084F\",            \"category\": \"Creators\",            \"content\": {                \"title\": \"Based Project\",                \"short_description\": \"Short description of this based project with max char count of 30\",                \"full_description\": \"Full description of this based project with max char count of 200\",                \"image_url\": \"https://base.org/image.png\",                \"target_url\": \"https://base.org/target-page\",                \"cta_text\": \"Mint\",                \"function_signature\": \"mint(uint256)\",                \"contract_address\": \"0x1FC10ef15E041C5D3C54042e52EB0C54CB9b710c\",                \"token_id\": \"2\",                \"token_amount\": \"0.01\",                \"featured\": true,                \"creator_name\": \"Base\",                \"creator_image_url\": \"https://base.org/creator-image.png\",                \"curation\": \"featured\",                \"start_ts\": \"2024-06-25T04:00:00Z\",                \"expiration_ts\": \"2024-07-29T00:00:00Z\"            },            \"updated_at\": null,            \"created_at\": \"2024-07-10T18:20:42.000Z\"        },        {            \"id\": \"8fRbdN8uf601fCkH1e084F\",            \"category\": \"Games\",            \"content\": {                \"title\": \"Based Project II\",                \"short_description\": \"Short description of this second based project with max char count of 30\",                \"full_description\": \"Full description of this second based project with max char count of 200\",                \"image_url\": \"https://base.org/image2.png\",                \"target_url\": \"https://base.org/second-target-page\",                \"cta_text\": \"Mint\",                \"function_signature\": \"mint(uint256)\",                \"contract_address\": \"0x1FC10ef15E041C5D3C54042e52EB0C54CB9b710c\",                \"token_id\": \"1\",                \"token_amount\": \"0.005\",                \"featured\": false,                \"creator_name\": \"Base\",                \"creator_image_url\": \"https://base.org/creator-image2.png\",                \"curation\": \"community\",                \"start_ts\": \"2024-06-25T04:00:00Z\",                \"expiration_ts\": \"2024-07-29T00:00:00Z\"            },            \"updated_at\": \"2024-07-11T18:20:42.000Z\",            \"created_at\": \"2024-07-10T18:20:42.000Z\"        }    ],    \"pagination\": {        \"total_records\": 2,        \"current_page\": 1,        \"total_pages\": 1,        \"limit\": 10    }}",
+        "\"data\": {        \"id\": \"7AsRdN8uf601fCkH1e084F\",        \"category\": \"Creators\",        \"content\": {            \"title\": \"Based Project\",            \"short_description\": \"Short description of this based project with max char count of 30\",            \"full_description\": \"Full description of this based project with max char count of 200\",            \"image_url\": \"https://base.org/image.png\",            \"target_url\": \"https://base.org/target-page\",            \"cta_text\": \"Mint\",            \"function_signature\": \"mint(uint256)\",            \"contract_address\": \"0x1FC10ef15E041C5D3C54042e52EB0C54CB9b710c\",            \"token_id\": \"2\",            \"token_amount\": \"0.01\",            \"featured\": true,            \"creator_name\": \"Base\",            \"creator_image_url\": \"https://base.org/creator-image.png\",            \"curation\": \"featured\",            \"start_ts\": \"2024-06-25T04:00:00Z\",            \"expiration_ts\": \"2024-07-29T00:00:00Z\"        },        \"updated_at\": null,        \"created_at\": \"2024-07-10T18:20:42.000Z\"    }}"
+      ],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/docs/",
+        "https://docs.base.org/docs/using-base",
+        "https://docs.base.org/docs/decomissioning-public-geth-archive-snapshots",
+        "https://docs.base.org/docs/quickstart",
+        "https://docs.base.org/docs/network-information",
+        "https://docs.base.org/docs/base-contracts",
+        "https://docs.base.org/docs/fees",
+        "https://docs.base.org/docs/differences",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/docs/tools/block-explorers",
+        "https://docs.base.org/docs/tools/network-faucets",
+        "https://docs.base.org/docs/tools/oracles",
+        "https://docs.base.org/docs/tools/data-indexers",
+        "https://docs.base.org/docs/tools/cross-chain",
+        "https://docs.base.org/docs/tools/account-abstraction",
+        "https://docs.base.org/docs/tools/onramps",
+        "https://docs.base.org/docs/tools/onboarding",
+        "https://docs.base.org/docs/tools/bridges",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/registry-faq",
+        "https://docs.base.org/docs/tools/basenames-faq",
+        "https://docs.base.org/docs/tools/foundry",
+        "https://docs.base.org/docs/tools/ethers",
+        "https://docs.base.org/docs/tokens/list",
+        "https://docs.base.org/docs/tokens/wallet",
+        "https://docs.base.org/docs/contracts",
+        "https://docs.base.org/docs/security/bounty",
+        "https://docs.base.org/docs/security/report",
+        "https://docs.base.org/docs/security/app-blocklist",
+        "https://docs.base.org/docs/terms-of-service",
+        "https://docs.base.org/docs/privacy-policy",
+        "https://docs.base.org/docs/cookie-policy",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "Onchain Registry API",
+          "content": "The base url for our API endpoints is https://base.org/api/registry/. The use of Onchain Registry API is governed by the license terms outlined in our Terms & Conditions."
+        },
+        {
+          "heading": "GET /entries​",
+          "content": "This endpoint will display all Onchain Registry entries subject to any query parameters set below"
+        },
+        {
+          "heading": "GET /featured​",
+          "content": "This endpoint will display a single Onchain Registry entry that is being actively featured"
+        },
+        {
+          "heading": "Terms & Conditions​",
+          "content": "We grant third parties a non-exclusive, worldwide, royalty-free license to use the Onchain Registry API solely for the purpose of integrating it into their applications or services. This license does not extend to any data or content accessed through the Onchain API, which remains the sole responsibility of the third party. By using the Onchain Registry API, third parties agree to comply with our license terms and any applicable laws and regulations as set forth in Coinbase Developer Platform Terms of Service. We make no warranties regarding the Onchain Registry API, and users accept all risks associated with its use. The Onchain App Registry API is an Early Access Product per Section 18 of the Coinbase Developer Platform Terms of Service and the Coinbase Prohibited Use Policy, and all terms and conditions therein govern your use of the Onchain Registry API."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/docs/tools/node-providers",
+      "title": "Node Providers | Base",
+      "code_examples": [],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/docs/",
+        "https://docs.base.org/docs/using-base",
+        "https://docs.base.org/docs/decomissioning-public-geth-archive-snapshots",
+        "https://docs.base.org/docs/quickstart",
+        "https://docs.base.org/docs/network-information",
+        "https://docs.base.org/docs/base-contracts",
+        "https://docs.base.org/docs/fees",
+        "https://docs.base.org/docs/differences",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/docs/tools/block-explorers",
+        "https://docs.base.org/docs/tools/network-faucets",
+        "https://docs.base.org/docs/tools/oracles",
+        "https://docs.base.org/docs/tools/data-indexers",
+        "https://docs.base.org/docs/tools/cross-chain",
+        "https://docs.base.org/docs/tools/account-abstraction",
+        "https://docs.base.org/docs/tools/onramps",
+        "https://docs.base.org/docs/tools/onboarding",
+        "https://docs.base.org/docs/tools/bridges",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/basenames-faq",
+        "https://docs.base.org/docs/tools/foundry",
+        "https://docs.base.org/docs/tools/ethers",
+        "https://docs.base.org/docs/tokens/list",
+        "https://docs.base.org/docs/tokens/wallet",
+        "https://docs.base.org/docs/contracts",
+        "https://docs.base.org/docs/security/bounty",
+        "https://docs.base.org/docs/security/report",
+        "https://docs.base.org/docs/security/app-blocklist",
+        "https://docs.base.org/docs/terms-of-service",
+        "https://docs.base.org/docs/privacy-policy",
+        "https://docs.base.org/docs/cookie-policy",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "Coinbase Developer Platform (CDP)​",
+          "content": "CDP provides an RPC endpoint that runs on the same node infrastructure that powers Coinbase's retail exchange, meaning you get the rock solid reliability of our retail exchange as a developer. CDP gives you a free, rate limited RPC endpoint to begin building on Base."
+        },
+        {
+          "heading": "1RPC​",
+          "content": "1RPC is the first and only on-chain attested privacy preserving RPC that eradicates metadata exposure and leakage when interacting with blockchains. 1RPC offers free and paid plans with additional features and increased request limits."
+        },
+        {
+          "heading": "Alchemy​",
+          "content": "Alchemy is a popular API provider and developer platform. Its robust, free tier offers access to enhanced features like SDKs, JSON-RPC APIs, and hosted mainnet and testnet nodes for Base."
+        },
+        {
+          "heading": "All That Node​",
+          "content": "All That Node is a comprehensive multi-chain development suite, designed to support multiple networks from a single platform. They offer free and paid plans with additional features and increased request limits."
+        },
+        {
+          "heading": "Ankr​",
+          "content": "Ankr provides private and public RPC endpoints for Base, powered by a globally distributed and decentralized network of nodes. They offer free and paid plans with increased request limits."
+        },
+        {
+          "heading": "Blast​",
+          "content": "Blast provides fast and reliable decentralized blockchain APIs by partnering with third-party Node Providers. Blast offers users the ability to generate their own dedicated RPC endpoint for Base."
+        },
+        {
+          "heading": "Blockdaemon​",
+          "content": "Blockdaemon offers access to hosted Base nodes with a free plan at $0/month via the Ubiquity Data API Suite. Extra costs may be incurred depending on usage."
+        },
+        {
+          "heading": "BlockPI​",
+          "content": "BlockPI is a high-quality, robust, and efficient RPC service network that provides access to Base nodes with free and paid plans."
+        },
+        {
+          "heading": "Chainstack​",
+          "content": "Chainstack allows developers to run high-performing Base nodes and APIs in minutes. They offer elastic Base RPC nodes that provide personal, geographically diverse, and protected API endpoints, as well as archive nodes to query the entire history of the Base Mainnet. Get started with their free and paid pricing plans."
+        },
+        {
+          "heading": "DRPC​",
+          "content": "DRPC offers access to a distributed network of independent third-party partners and public nodes for Base. They provide a free tier that allows for an unlimited amount of requests over public nodes, or a paid tier which provides access to all providers, as well as other additional features."
+        },
+        {
+          "heading": "GetBlock​",
+          "content": "GetBlock is a Blockchain-as-a-Service (BaaS) platform that provides instant API access to full nodes for Base. They offer free, pay per use, and unlimited pricing plans."
+        },
+        {
+          "heading": "NodeReal​",
+          "content": "NodeReal is a blockchain infrastructure and services provider that provides instant and easy-access to Base node APIs."
+        },
+        {
+          "heading": "Nodies DLB​",
+          "content": "Nodies DLB provides highly performant RPC Services for Base, as well as all other OP-stacked chains. They offer free public endpoints, Pay-As-You-Go, and enterprise pricing plans."
+        },
+        {
+          "heading": "NOWNodes​",
+          "content": "NOWNodes is a Web3 development tool that provides shared and dedicated no rate-limit access to Base RPC full nodes."
+        },
+        {
+          "heading": "OnFinality​",
+          "content": "OnFinality provides high performance archive access to Base Mainnet and Base Sepolia, with a generous free tier and high rate limits, as well as Trace and Debug APIs, available to paid plans."
+        },
+        {
+          "heading": "QuickNode​",
+          "content": "QuickNode offers access to hosted Base nodes as part of their free Discover Plan. You can configure add-ons, like \"Trace Mode\" and \"Archive Mode\" for an additional cost by upgrading to one of their paid plans."
+        },
+        {
+          "heading": "RockX​",
+          "content": "RockX offers a global blockchain node network and developer tools for onchain innovation. Start with our free Base RPC to access institutional-grade solutions."
+        },
+        {
+          "heading": "Stackup​",
+          "content": "Stackup is a leading ERC-4337 infrastructure platform. You can access hosted Base nodes with built-in account abstraction tools like bundlers and paymasters."
+        },
+        {
+          "heading": "SubQuery​",
+          "content": "SubQuery is a globally distributed, decentralized network of RPC nodes, offering generous free public endpoints and higher access through Flex Plans"
+        },
+        {
+          "heading": "Tenderly Web3 Gateway​",
+          "content": "Tenderly Web3 Gateway provides a fast and reliable hosted node solution with a built-in suite of developer tooling and infrastructure building blocks covering your whole development lifecycle. Develop, test, deploy, and monitor your onchain app on the Base network with both free and paid plans."
+        },
+        {
+          "heading": "Unifra​",
+          "content": "Unifra is a Web3 developer platform that provides tools, APIs, and node infrastructure, and provides access to Base nodes that are nodes are reliable, scalable, and easy to use."
+        },
+        {
+          "heading": "Validation Cloud​",
+          "content": "Validation Cloud is the world’s fastest node provider according to Compare Nodes. With 50 million compute units available for use without a credit card and a scale tier that never has rate limits, Validation Cloud is built to support your most rigorous and low-latency workloads."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/docs/tools/block-explorers",
+      "title": "Block Explorers | Base",
+      "code_examples": [],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/docs/",
+        "https://docs.base.org/docs/using-base",
+        "https://docs.base.org/docs/decomissioning-public-geth-archive-snapshots",
+        "https://docs.base.org/docs/quickstart",
+        "https://docs.base.org/docs/network-information",
+        "https://docs.base.org/docs/base-contracts",
+        "https://docs.base.org/docs/fees",
+        "https://docs.base.org/docs/differences",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/docs/tools/block-explorers",
+        "https://docs.base.org/docs/tools/network-faucets",
+        "https://docs.base.org/docs/tools/oracles",
+        "https://docs.base.org/docs/tools/data-indexers",
+        "https://docs.base.org/docs/tools/cross-chain",
+        "https://docs.base.org/docs/tools/account-abstraction",
+        "https://docs.base.org/docs/tools/onramps",
+        "https://docs.base.org/docs/tools/onboarding",
+        "https://docs.base.org/docs/tools/bridges",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/basenames-faq",
+        "https://docs.base.org/docs/tools/foundry",
+        "https://docs.base.org/docs/tools/ethers",
+        "https://docs.base.org/docs/tokens/list",
+        "https://docs.base.org/docs/tokens/wallet",
+        "https://docs.base.org/docs/contracts",
+        "https://docs.base.org/docs/security/bounty",
+        "https://docs.base.org/docs/security/report",
+        "https://docs.base.org/docs/security/app-blocklist",
+        "https://docs.base.org/docs/terms-of-service",
+        "https://docs.base.org/docs/privacy-policy",
+        "https://docs.base.org/docs/cookie-policy",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "Arkham​",
+          "content": "The Arkham Platform supports Base.\n\nArkham is a crypto intelligence platform that systematically analyzes blockchain transactions, showing users the people and companies behind blockchain activity, with a suite of advanced tools for analyzing their activity."
+        },
+        {
+          "heading": "Blockscout​",
+          "content": "A Blockscout explorer is available for Base.\n\nBlockscout provides tools to help you debug smart contracts and transactions:\n\nA testnet explorer for Base Sepolia is also available."
+        },
+        {
+          "heading": "Etherscan​",
+          "content": "An Etherscan block explorer is available for Base.\n\nEtherscan provides tools to help you view transaction data and debug smart contracts:\n\nA testnet explorer for Base Sepolia is also available."
+        },
+        {
+          "heading": "DexGuru​",
+          "content": "DexGuru provides a familiar UI with data on transactions, blocks, account balances and more. Developers can use it to verify smart contracts and debug transactions with interactive traces and logs visualization."
+        },
+        {
+          "heading": "L2scan Explorer​",
+          "content": "L2scan Explorer is a web-based tool that allows users to analyze Base and other layer 2 networks. It provides a user-friendly interface for viewing transaction history, checking account balances, and tracking the status of network activity."
+        },
+        {
+          "heading": "OKLink​",
+          "content": "OKLink is a multi-chain blockchain explorer that supports Base and provides the following features for developers:"
+        },
+        {
+          "heading": "Routescan​",
+          "content": "Routescan superchain explorer allows you to search for transactions, addresses, tokens, prices and other activities taking place across all Superchain blockchains, including Base."
+        },
+        {
+          "heading": "Tenderly Explorer​",
+          "content": "With the Tenderly developer explorer you can get unparalleled visibility into your smart contract code. You can easily view detailed transaction information, spot bugs in your code, and optimize gas spend. Supporting Base mainnet and Base Sepolia testnet, Tenderly Explorer helps you track your smart contracts while providing visibility on a granular level."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/docs/tools/network-faucets",
+      "title": "Network Faucets | Base",
+      "code_examples": [],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/docs/",
+        "https://docs.base.org/docs/using-base",
+        "https://docs.base.org/docs/decomissioning-public-geth-archive-snapshots",
+        "https://docs.base.org/docs/quickstart",
+        "https://docs.base.org/docs/network-information",
+        "https://docs.base.org/docs/base-contracts",
+        "https://docs.base.org/docs/fees",
+        "https://docs.base.org/docs/differences",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/docs/tools/block-explorers",
+        "https://docs.base.org/docs/tools/network-faucets",
+        "https://docs.base.org/docs/tools/oracles",
+        "https://docs.base.org/docs/tools/data-indexers",
+        "https://docs.base.org/docs/tools/cross-chain",
+        "https://docs.base.org/docs/tools/account-abstraction",
+        "https://docs.base.org/docs/tools/onramps",
+        "https://docs.base.org/docs/tools/onboarding",
+        "https://docs.base.org/docs/tools/bridges",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/basenames-faq",
+        "https://docs.base.org/docs/tools/foundry",
+        "https://docs.base.org/docs/tools/ethers",
+        "https://docs.base.org/docs/tokens/list",
+        "https://docs.base.org/docs/tokens/wallet",
+        "https://docs.base.org/docs/contracts",
+        "https://docs.base.org/docs/security/bounty",
+        "https://docs.base.org/docs/security/report",
+        "https://docs.base.org/docs/security/app-blocklist",
+        "https://docs.base.org/docs/terms-of-service",
+        "https://docs.base.org/docs/privacy-policy",
+        "https://docs.base.org/docs/cookie-policy",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "Coinbase Developer Platform​",
+          "content": "The Coinbase Developer Platform Faucet provides free testnet ETH on Base Sepolia - one claim per 24 hours.\n\nRequests to Coinbase Developer Platform's Faucet are limited to one claim per 24 hours."
+        },
+        {
+          "heading": "thirdweb Faucet​",
+          "content": "The thirdweb Faucet provides free testnet ETH on Base Sepolia - one claim per 24 hours.\n\nThe thirdweb faucet allows developers to connect their wallet through EOA or social logins and claim Base Sepolia testnet funds."
+        },
+        {
+          "heading": "Superchain Faucet​",
+          "content": "The Superchain Faucet provides testnet ETH for all OP Chains, including Base.\n\nThe Superchain faucet allows developers to authenticate via their onchain identity. Developers that choose to authenticate via their onchain identity can claim more testnet ETH versus traditional faucets. For more information, see the FAQ."
+        },
+        {
+          "heading": "Alchemy Faucet​",
+          "content": "The Alchemy Faucet is a fast and reliable network faucet that allows users with a free Alchemy account to request testnet ETH on Base Sepolia.\n\nRequests to Alchemy's Base Sepolia Faucet are limited to one claim per 24 hours."
+        },
+        {
+          "heading": "Bware Labs Faucet​",
+          "content": "Bware Labs Faucet is an easy to use faucet with no registration required. You can use Bware Labs Faucet to claim Base Sepolia testnet ETH for free - one claim per 24 hours.\n\nRequests to Bware Labs Faucet are limited to one claim per 24 hours."
+        },
+        {
+          "heading": "QuickNode Faucet​",
+          "content": "QuickNode Faucet is an easy to use Multi-Chain Faucet. You can use QuickNode Faucet to claim Base Sepolia testnet ETH for free - one drip per network every 12 hours.\n\nRequests to QuickNode Faucet are limited to one drip every 12 hours."
+        },
+        {
+          "heading": "LearnWeb3 Faucet​",
+          "content": "LearnWeb3 Faucet is a multi-chain faucet by LearnWeb3. You can use the LearnWeb3 faucet to claim Base Sepolia testnet ETH for free - one claim every 24 hours.\n\nRequests to LearnWeb3 faucet are limited to one claim per 24 hours."
+        },
+        {
+          "heading": "Ethereum Ecosystem Faucet​",
+          "content": "The Base Sepolia Faucet is a free & easy to use testnet faucet for Base Sepolia with very generous drips that doesn't require users to log in. It's run by Ethereum Ecosystem.\n\nEach wallet is restricted to receiving 0.5 ETH from this faucet every 24 hours."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/docs/tools/oracles",
+      "title": "Oracles | Base",
+      "code_examples": [],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/docs/",
+        "https://docs.base.org/docs/using-base",
+        "https://docs.base.org/docs/decomissioning-public-geth-archive-snapshots",
+        "https://docs.base.org/docs/quickstart",
+        "https://docs.base.org/docs/network-information",
+        "https://docs.base.org/docs/base-contracts",
+        "https://docs.base.org/docs/fees",
+        "https://docs.base.org/docs/differences",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/docs/tools/block-explorers",
+        "https://docs.base.org/docs/tools/network-faucets",
+        "https://docs.base.org/docs/tools/oracles",
+        "https://docs.base.org/docs/tools/data-indexers",
+        "https://docs.base.org/docs/tools/cross-chain",
+        "https://docs.base.org/docs/tools/account-abstraction",
+        "https://docs.base.org/docs/tools/onramps",
+        "https://docs.base.org/docs/tools/onboarding",
+        "https://docs.base.org/docs/tools/bridges",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/basenames-faq",
+        "https://docs.base.org/docs/tools/foundry",
+        "https://docs.base.org/docs/tools/ethers",
+        "https://docs.base.org/docs/tokens/list",
+        "https://docs.base.org/docs/tokens/wallet",
+        "https://docs.base.org/docs/contracts",
+        "https://docs.base.org/docs/security/bounty",
+        "https://docs.base.org/docs/security/report",
+        "https://docs.base.org/docs/security/app-blocklist",
+        "https://docs.base.org/docs/terms-of-service",
+        "https://docs.base.org/docs/privacy-policy",
+        "https://docs.base.org/docs/cookie-policy",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "API3​",
+          "content": "The API3 Market provides access to 200+ price feeds on Base Mainnet and Base Testnet. The price feeds operate as a native push oracle and can be activated instantly via the Market UI.\n\nThe price feeds are delivered by an aggregate of first-party oracles using signed data and support OEV recapture.\n\nUnlike traditional data feeds, reading API3 price feeds enables dApps to auction off the right to update the price feeds to searcher bots which facilitates more efficient liquidation processes for users and LPs of DeFi money markets. The OEV recaptured is returned to the dApp.\n\nApart from data feeds, API3 also provides Quantum Random Number Generation on Base Mainnet and Testnet. QRNG is a free-to-use service that provides quantum randomness onchain. It is powered by Airnode, the first-party oracle that is directly operated by the QRNG API providers."
+        },
+        {
+          "heading": "Chainlink​",
+          "content": "Chainlink provides a number of price feeds for Base.\n\nSee this guide to learn how to use the Chainlink feeds.\n\nTo use Chainlink datafeeds, you may need LINK token."
+        },
+        {
+          "heading": "Chronicle​",
+          "content": "Chronicle provides a number of Oracles for Base.\n\nSee this guide to learn how to use the Chronicle Oracles."
+        },
+        {
+          "heading": "DIA​",
+          "content": "DIA provides 2000+ price feeds for Base.\nSee this guide to learn how to use the DIA feeds."
+        },
+        {
+          "heading": "Gelato​",
+          "content": "Gelato VRF (Verifiable Random Function) provides a unique system offering trustable randomness on Base.\n\nSee this guide to learn how to get started with Gelato VRF."
+        },
+        {
+          "heading": "ORA​",
+          "content": "ORA provides an Onchain AI Oracle for Base.\n\nSee this guide to learn how to use ORA Onchain AI Oracle."
+        },
+        {
+          "heading": "Pyth​",
+          "content": "The Pyth Network is one of the largest first-party Oracle network, delivering real-time data across a vast number of chains. Pyth introduces an innovative low-latency pull oracle design, where users can pull price updates onchain when needed, enabling everyone in the onchain environment to access that data point most efficiently. Pyth network updates the prices every 400ms, making Pyth one of the fastest onchain oracles."
+        },
+        {
+          "heading": "Pyth Entropy​",
+          "content": "Pyth Entropy allows developers to quickly and easily generate secure random numbers onchain.\n\nCheck how to generate random numbers in EVM contracts for a detailed walkthrough."
+        },
+        {
+          "heading": "Supported Networks for Base (Pyth Entropy):​",
+          "content": "Check out the following links to get started with Pyth."
+        },
+        {
+          "heading": "RedStone​",
+          "content": "RedStone provides 1200+ price feeds for Base.\n\nSee this guide to learn how to use the RedStone feeds."
+        },
+        {
+          "heading": "Supra​",
+          "content": "Supra provides VRF and decentralized oracle price feeds that can be used for onchain and offchain use-cases such as spot and perpetual DEXes, lending protocols, and payments protocols. Supra’s oracle chain and consensus algorithm makes it one of the fastest-to-finality oracle providers, with layer-1 security guarantees. The pull oracle has a sub-second response time. Aside from speed and security, Supra’s rotating node architecture gathers data from 40+ data sources and applies a robust calculation methodology to get the most accurate value. The node provenance on the data dashboard also provides a fully transparent historical audit trail. Supra’s Distributed Oracle Agreement (DORA) paper was accepted into ICDCS 2023, the oldest distributed systems conference.\n\nVisit the Supra documentation to learn more about integrating Supra's oracle and VRF into your Base project."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/docs/tools/data-indexers",
+      "title": "Data Indexers | Base",
+      "code_examples": [],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/docs/",
+        "https://docs.base.org/docs/using-base",
+        "https://docs.base.org/docs/decomissioning-public-geth-archive-snapshots",
+        "https://docs.base.org/docs/quickstart",
+        "https://docs.base.org/docs/network-information",
+        "https://docs.base.org/docs/base-contracts",
+        "https://docs.base.org/docs/fees",
+        "https://docs.base.org/docs/differences",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/docs/tools/block-explorers",
+        "https://docs.base.org/docs/tools/network-faucets",
+        "https://docs.base.org/docs/tools/oracles",
+        "https://docs.base.org/docs/tools/data-indexers",
+        "https://docs.base.org/docs/tools/cross-chain",
+        "https://docs.base.org/docs/tools/account-abstraction",
+        "https://docs.base.org/docs/tools/onramps",
+        "https://docs.base.org/docs/tools/onboarding",
+        "https://docs.base.org/docs/tools/bridges",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/basenames-faq",
+        "https://docs.base.org/docs/tools/foundry",
+        "https://docs.base.org/docs/tools/ethers",
+        "https://docs.base.org/docs/tokens/list",
+        "https://docs.base.org/docs/tokens/wallet",
+        "https://docs.base.org/docs/contracts",
+        "https://docs.base.org/docs/security/bounty",
+        "https://docs.base.org/docs/security/report",
+        "https://docs.base.org/docs/security/app-blocklist",
+        "https://docs.base.org/docs/terms-of-service",
+        "https://docs.base.org/docs/privacy-policy",
+        "https://docs.base.org/docs/cookie-policy",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "Allium​",
+          "content": "Allium is an Enterprise Data Platform that serves accurate, fast, and simple blockchain data. Currently serving 15 blockchains and over 100+ schemas, Allium offers near real-time Base data for infrastructure needs and enriched Base data (NFT, DEX, Decoded, Wallet360) for research and analytics.\n\nAllium supports data delivery to multiple destinations, including Snowflake, Bigquery, Databricks, and AWS S3.\n\nDocumentation:\n\nTo get started, contact Allium here."
+        },
+        {
+          "heading": "Arkham​",
+          "content": "Arkham is a crypto intelligence platform that systematically analyzes blockchain transactions, showing users the people and companies behind blockchain activity, with a suite of advanced tools for analyzing their activity.\n\nReferences:"
+        },
+        {
+          "heading": "Covalent​",
+          "content": "Covalent is a hosted blockchain data solution providing access to historical and current on-chain data for 100+ supported blockchains, including Base.\n\nCovalent maintains a full archival copy of every supported blockchain, meaning every balance, transaction, log event, and NFT asset data is available from the genesis block. This data is available via:\n\nTo get started, sign up and visit the developer documentation."
+        },
+        {
+          "heading": "DipDup​",
+          "content": "DipDup is a Python framework for building smart contract indexers. It helps developers focus on business logic instead of writing a boilerplate to store and serve data. DipDup-based indexers are selective, which means only required data is requested. This approach allows to achieve faster indexing times and decreased load on underlying APIs.\n\nTo get started, visit the documentation or follow the quickstart guide."
+        },
+        {
+          "heading": "Envio​",
+          "content": "Envio is a full-featured data indexing solution that provides application developers with a seamless and efficient way to index and aggregate real-time and historical blockchain data for any EVM. The indexed data is easily accessible through custom GraphQL queries, providing developers with the flexibility and power to retrieve specific information.\n\nEnvio HyperSync is an indexed layer of the Base blockchain for the hyper-speed syncing of historical data (JSON-RPC bypass). What would usually take hours to sync ~100,000 events can now be done in the order of less than a minute.\n\nDesigned to optimize the user experience, Envio offers automatic code generation, flexible language support, multi-chain data aggregation, and a reliable, cost-effective hosted service.\n\nTo get started, visit the documentation or follow the quickstart guide."
+        },
+        {
+          "heading": "GhostGraph​",
+          "content": "GhostGraph makes it easy to build blazingly fast indexers (subgraphs) for smart contracts.\n\nGhostGraph is the first indexing solution that lets you write your index transformations in Solidity. Base dApps can query data with GraphQL using our hosted endpoints.\n\nTo get started, you can sign up for an account and follow this quickstart guide on how to create, deploy, and query a GhostGraph."
+        },
+        {
+          "heading": "The Indexing Company​",
+          "content": "The Indexing Company provides indexing as a service, capable of indexing any chain (EVM and non-EVM) with an RPC endpoint and integrating off-chain data within the same infrastructure.\n\nOur services include data transformations, aggregations, and streamlined data flows, allowing teams to develop their products faster while saving on developer resources, time, and money. Our solution is ideal for teams needing advanced data engineering for modular chain setups, multi-chain products, L1/L2/L3 chains and AI.\n\nTo get started contact us here."
+        },
+        {
+          "heading": "Moralis​",
+          "content": "Moralis offers comprehensive data APIs for crypto, offering both indexed and real-time data across 15+ chains. Moralis' APIs include portfolio and wallet balances, NFT data, token data, price data, candlestick data, net worth data, and a lot more. All of the data is enriched with things like metadata, parsed events and address labels.\n\nTo get started with Moralis, you can sign up for an account, visit the Moralis documentation, or check out their tutorials on Youtube."
+        },
+        {
+          "heading": "Nexandria​",
+          "content": "Nexandria API offers access to complete historical on-chain data at blazing speeds, arbitrary granularity (as low as block-level) and at viable unit economics (think web2 level costs). Our technology lets you generate subgraphs on the fly, unlocking unique endpoints like a statement of all the balance transfers for all the tokens, or a list of all the neighbors of an address with all the historical interaction details or a portfolio balance graph covering all the tokens across arbitrary time/block ranges.\n\nReferences:"
+        },
+        {
+          "heading": "Shovel​",
+          "content": "Shovel is an open source tool for synchronizing Ethereum data to your Postgres database. Shovel can index block data, transaction data, and decoded event data. A single Shovel can index multiple chains simultaneously. Shovel is configured via a declarative JSON config file – no custom functions to save indexed data to your database.\n\nFind out more in the Shovel Docs"
+        },
+        {
+          "heading": "Subsquid​",
+          "content": "Subsquid is a decentralized hyper-scalable data platform optimized for providing efficient, permissionless access to large volumes of data.\nIt currently serves historical on-chain data, including event logs, transaction receipts, traces, and per-transaction state diffs.\nSubsquid offers a powerful toolkit for creating custom data extraction and processing pipelines, achieving an indexing speed of up to 150k blocks per second.\n\nTo get started, visit the documentation or see this quickstart with examples on how to easily create subgraphs via Subsquid."
+        },
+        {
+          "heading": "SubQuery​",
+          "content": "SubQuery is a data indexer that provides developers with fast, reliable, decentralized, and customized APIs for accessing rich indexed data from over 80+ ecosystems (including Base) within their projects.\n\nSubQuery provides the ability to aggregate this data across multiple blockchains, all within a single project.\n\nOther advantages of SubQuery includes performance with multiple RPC endpoint configurations, multi-worker capabilities and a configurable caching architecture.\n\nTo get started, visit the developer documentation or follow this step-by-step guide on how to index any smart contract on Base."
+        },
+        {
+          "heading": "The Graph​",
+          "content": "The Graph is an indexing protocol for organizing blockchain data and making it easily accessible with GraphQL.\n\nBase applications can use GraphQL to query open APIs called subgraphs, to retrieve data that is indexed on the network. With The Graph, you can build serverless applications that run entirely on public infrastructure.\n\nTo get started, visit the documentation or see this quickstart on how to create, deploy, and query a subgraph."
+        },
+        {
+          "heading": "Flair​",
+          "content": "Flair is a real-time and historical custom data indexing for any EVM chain.\n\nIt offers reusable indexing primitives (such as fault-tolerant RPC ingestors, custom processors and aggregations, re-org aware database integrations) to make it easy to receive, transform, store and access your on-chain data.\n\nTo get started, visit the documentation or clone the starter boilerplate template and follow the instructions."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/docs/tools/cross-chain",
+      "title": "Cross-chain | Base",
+      "code_examples": [],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/docs/",
+        "https://docs.base.org/docs/using-base",
+        "https://docs.base.org/docs/decomissioning-public-geth-archive-snapshots",
+        "https://docs.base.org/docs/quickstart",
+        "https://docs.base.org/docs/network-information",
+        "https://docs.base.org/docs/base-contracts",
+        "https://docs.base.org/docs/fees",
+        "https://docs.base.org/docs/differences",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/docs/tools/block-explorers",
+        "https://docs.base.org/docs/tools/network-faucets",
+        "https://docs.base.org/docs/tools/oracles",
+        "https://docs.base.org/docs/tools/data-indexers",
+        "https://docs.base.org/docs/tools/cross-chain",
+        "https://docs.base.org/docs/tools/account-abstraction",
+        "https://docs.base.org/docs/tools/onramps",
+        "https://docs.base.org/docs/tools/onboarding",
+        "https://docs.base.org/docs/tools/bridges",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/basenames-faq",
+        "https://docs.base.org/docs/tools/foundry",
+        "https://docs.base.org/docs/tools/ethers",
+        "https://docs.base.org/docs/tokens/list",
+        "https://docs.base.org/docs/tokens/wallet",
+        "https://docs.base.org/docs/contracts",
+        "https://docs.base.org/docs/security/bounty",
+        "https://docs.base.org/docs/security/report",
+        "https://docs.base.org/docs/security/app-blocklist",
+        "https://docs.base.org/docs/terms-of-service",
+        "https://docs.base.org/docs/privacy-policy",
+        "https://docs.base.org/docs/cookie-policy",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "Axelar​",
+          "content": "Axelar is an interchain platform that connects blockchains to enable universal web3 transactions. By integrating with Axelar, applications built on Base can now easily send messages and assets between the 49+ blockchains connected via Axelar.\n\nTo learn more about Axelar visit our docs. For complete end-to-end examples demonstrating various Axelar use cases please visit the available code examples."
+        },
+        {
+          "heading": "Axelarscan​",
+          "content": "To view current transactions and live stats about the Axelar network, please visit the Axelarscan block explorer"
+        },
+        {
+          "heading": "Crossmint​",
+          "content": "Crossmint allows you to create and deploy NFT Collections and enable cross-chain payments. This enables your users and customers to purchase an NFT from a collection deployed on Base using Ethereum or Solana tokens.\n\nCheck out Crossmint Docs to learn more about NFT Checkout with Crossmint. To power cross-chain payments, click here to get started."
+        },
+        {
+          "heading": "Chainlink CCIP​",
+          "content": "Chainlink CCIP is a secure interoperability protocol that allows for securely sending messages, transferring tokens, and initiating actions across different blockchains.\n\nTo get started with integrating Chainlink CCIP in your Base project, visit the Chainlink CCIP documentation."
+        },
+        {
+          "heading": "LayerZero​",
+          "content": "LayerZero is an omnichain interoperability protocol that enables cross-chain messaging. Applications built on Base can use the LayerZero protocol to connect to 35+ supported blockchains seamlessly.\n\nTo get started with integrating LayerZero, visit the LayerZero documentation and provided examples on GitHub."
+        },
+        {
+          "heading": "Wormhole​",
+          "content": "Wormhole is a generic messaging protocol that provides secure communication between blockchains.\n\nBy integrating Wormhole, a Base application can access users and liquidity on > 30 chains and > 7 different platforms.\n\nSee this quickstart to get started with integrating Wormhole in your Base project.\n\nFor more information on integrating Wormhole, visit their documentation and the provided GitHub examples."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/docs/tools/account-abstraction",
+      "title": "Account Abstraction | Base",
+      "code_examples": [],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/docs/",
+        "https://docs.base.org/docs/using-base",
+        "https://docs.base.org/docs/decomissioning-public-geth-archive-snapshots",
+        "https://docs.base.org/docs/quickstart",
+        "https://docs.base.org/docs/network-information",
+        "https://docs.base.org/docs/base-contracts",
+        "https://docs.base.org/docs/fees",
+        "https://docs.base.org/docs/differences",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/docs/tools/block-explorers",
+        "https://docs.base.org/docs/tools/network-faucets",
+        "https://docs.base.org/docs/tools/oracles",
+        "https://docs.base.org/docs/tools/data-indexers",
+        "https://docs.base.org/docs/tools/cross-chain",
+        "https://docs.base.org/docs/tools/account-abstraction",
+        "https://docs.base.org/docs/tools/onramps",
+        "https://docs.base.org/docs/tools/onboarding",
+        "https://docs.base.org/docs/tools/bridges",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/basenames-faq",
+        "https://docs.base.org/docs/tools/foundry",
+        "https://docs.base.org/docs/tools/ethers",
+        "https://docs.base.org/docs/tokens/list",
+        "https://docs.base.org/docs/tokens/wallet",
+        "https://docs.base.org/docs/contracts",
+        "https://docs.base.org/docs/security/bounty",
+        "https://docs.base.org/docs/security/report",
+        "https://docs.base.org/docs/security/app-blocklist",
+        "https://docs.base.org/docs/terms-of-service",
+        "https://docs.base.org/docs/privacy-policy",
+        "https://docs.base.org/docs/cookie-policy",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "Alchemy Account Kit​",
+          "content": "Account Kit is a complete solution for account abstraction. Using Account Kit, you can create a smart contract wallet for every user that leverages account abstraction to simplify every step of your app's onboarding experience. It also offers Gas Manager and Bundler APIs for sponsoring gas and batching transactions."
+        },
+        {
+          "heading": "Biconomy​",
+          "content": "Biconomy is an Account Abstraction toolkit that enables you to provide the simplest UX for your dapp or wallet. It offers modular smart accounts, as well as paymasters and bundlers as a service for sponsoring gas and executing transactions at scale."
+        },
+        {
+          "heading": "Coinbase Account Abstraction Kit​",
+          "content": "The Coinbase Developer Platform Account Abstraction Kit is an account abstraction toolkit for building simple onchain user experiences. Account Abstraction Kit provides a paymaster and bundler that allows you to sponsor gas fees and bundle user transactions, improving the user experience of your application."
+        },
+        {
+          "heading": "Openfort​",
+          "content": "Openfort is an infrastructure provider designed to simplify the development of games and gamified experiences across their suite of API endpoints. The platform vertically integrates the AA stack, so game developers can focus on game development without worrying about private key management, the account model or the onchain interactions with paymasters and bundlers. The Openfort platform is compatible with most EVM chains, including Base."
+        },
+        {
+          "heading": "Pimlico​",
+          "content": "Pimlico provides an infrastructure platform that makes building smart accounts simpler. If you are developing, an ERC-4337 smart account, they provide bundlers, verifying paymasters, ERC-20 paymasters, and much more."
+        },
+        {
+          "heading": "Safe​",
+          "content": "Safe provides modular smart account infrastructure and account abstraction stack via their Safe{Core} Account Abstraction SDK, API, and Protocol."
+        },
+        {
+          "heading": "Stackup​",
+          "content": "Stackup provides smart account tooling for building account abstraction within your apps. They offer Paymaster and Bundler APIs for sponsoring gas and sending account abstraction transactions."
+        },
+        {
+          "heading": "thirdweb​",
+          "content": "thirdweb offers the complete toolkit to leverage account abstraction technology to enable seamless user experiences for your users. This includes Account Factory contracts that let your users spin up Smart Accounts, Bundler for UserOps support, and Paymaster to enable gas sponsorships."
+        },
+        {
+          "heading": "WalletKit​",
+          "content": "WalletKit is an all-in-one platform for adding smart, gasless wallets to your app. It has integrated support for ERC 4337 and comes with a paymaster and bundler included, requiring no extra setup.\n\nWalletKit also offers pre-built components for onboarding users with email and social logins, which can be integrated in under 15 minutes using their React SDK or the wagmi connector. Alternatively, build completely bespoke experiences for your users using WalletKit's Wallets API.\n\nWalletKit is compatible with most EVM chains, including Base. You can check out the WalletKit documentation here. Start building for free on the Base testnet today."
+        },
+        {
+          "heading": "ZeroDev​",
+          "content": "ZeroDev is an embedded wallet powered by account abstraction. It offers you the ability to create self-custody wallets for your users, sponsor gas, and simplify user flows by batching and automating transactions."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/docs/tokens/list",
+      "title": "Bridging an L1 token to Base | Base",
+      "code_examples": [],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/docs/",
+        "https://docs.base.org/docs/using-base",
+        "https://docs.base.org/docs/decomissioning-public-geth-archive-snapshots",
+        "https://docs.base.org/docs/quickstart",
+        "https://docs.base.org/docs/network-information",
+        "https://docs.base.org/docs/base-contracts",
+        "https://docs.base.org/docs/fees",
+        "https://docs.base.org/docs/differences",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/docs/tools/block-explorers",
+        "https://docs.base.org/docs/tools/network-faucets",
+        "https://docs.base.org/docs/tools/oracles",
+        "https://docs.base.org/docs/tools/data-indexers",
+        "https://docs.base.org/docs/tools/cross-chain",
+        "https://docs.base.org/docs/tools/account-abstraction",
+        "https://docs.base.org/docs/tools/onramps",
+        "https://docs.base.org/docs/tools/onboarding",
+        "https://docs.base.org/docs/tools/bridges",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/basenames-faq",
+        "https://docs.base.org/docs/tools/foundry",
+        "https://docs.base.org/docs/tools/ethers",
+        "https://docs.base.org/docs/tokens/list",
+        "https://docs.base.org/docs/tokens/wallet",
+        "https://docs.base.org/docs/contracts",
+        "https://docs.base.org/docs/security/bounty",
+        "https://docs.base.org/docs/security/report",
+        "https://docs.base.org/docs/security/app-blocklist",
+        "https://docs.base.org/docs/terms-of-service",
+        "https://docs.base.org/docs/privacy-policy",
+        "https://docs.base.org/docs/cookie-policy",
+        "https://docs.base.org/base-contracts/#l2-contract-addresses",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "The Base Token List",
+          "content": "This page is intended for token issuers who already have an ERC-20 contract deployed on Ethereum and would like to submit their token for bridging between Ethereum and Base. Base uses the Superchain token list as a reference for tokens that have been deployed on Base.\n\nDisclaimer: Base does not endorse any of the tokens that are listed in the Github repository and has conducted only preliminary checks, which include automated checks listed here."
+        },
+        {
+          "heading": "Adding your token to the list​",
+          "content": "The steps below explain how to get your token on the Base Token List."
+        },
+        {
+          "heading": "Step 1: Deploy your token on Base​",
+          "content": "Select your preferred bridging framework and use it to deploy an ERC-20 for your token on Base. We recommend you use the framework provided by Base's standard bridge contracts, and furthermore deploy your token using the OptimismMintableERC20Factory. Deploying your token on Base in this manner provides us with guarantees that will smooth the approval process. If you choose a different bridging framework, its interface must be compatible with that of the standard bridge, otherwise it may be difficult for us to support."
+        },
+        {
+          "heading": "Step 2: Submit details for your token​",
+          "content": "Follow the instructions in the GitHub repository and submit a PR containing the required details for your token. You must specify in your token's data.json file a section for ‘base-sepolia' and/or ‘base’. The change you need to submit is particularly simple if your token has already been added to the Superchain token list. For example, this PR shows the change required for cbETH, which was already on Optimism's token list and relies on the Base standard bridge."
+        },
+        {
+          "heading": "Step 3: Await final approval​",
+          "content": "Reviews are regularly conducted by the Base team and you should receive a reply within 24-72 hours (depending on if the PR is opened on a week day, weekend or holiday)."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/docs/contracts",
+      "title": "Contracts | Base",
+      "code_examples": [],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/docs/",
+        "https://docs.base.org/docs/using-base",
+        "https://docs.base.org/docs/decomissioning-public-geth-archive-snapshots",
+        "https://docs.base.org/docs/quickstart",
+        "https://docs.base.org/docs/network-information",
+        "https://docs.base.org/docs/base-contracts",
+        "https://docs.base.org/docs/fees",
+        "https://docs.base.org/docs/differences",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/docs/tools/block-explorers",
+        "https://docs.base.org/docs/tools/network-faucets",
+        "https://docs.base.org/docs/tools/oracles",
+        "https://docs.base.org/docs/tools/data-indexers",
+        "https://docs.base.org/docs/tools/cross-chain",
+        "https://docs.base.org/docs/tools/account-abstraction",
+        "https://docs.base.org/docs/tools/onramps",
+        "https://docs.base.org/docs/tools/onboarding",
+        "https://docs.base.org/docs/tools/bridges",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/basenames-faq",
+        "https://docs.base.org/docs/tools/foundry",
+        "https://docs.base.org/docs/tools/ethers",
+        "https://docs.base.org/docs/tokens/list",
+        "https://docs.base.org/docs/tokens/wallet",
+        "https://docs.base.org/docs/contracts",
+        "https://docs.base.org/docs/security/bounty",
+        "https://docs.base.org/docs/security/report",
+        "https://docs.base.org/docs/security/app-blocklist",
+        "https://docs.base.org/docs/terms-of-service",
+        "https://docs.base.org/docs/privacy-policy",
+        "https://docs.base.org/docs/cookie-policy",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "Contracts",
+          "content": "This page lists contract addresses for onchain apps that we have deployed."
+        },
+        {
+          "heading": "Testnet interfaces​",
+          "content": "Two community projects, BaseX and DapDap, provide testnet interfaces for Uniswap contracts if you prefer to interact in the browser instead of with the contracts directly."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.base.org/cookie-policy",
+      "title": "Cookie Policy | Base",
+      "code_examples": [],
+      "links": [
+        "https://docs.base.org/",
+        "https://docs.base.org/",
+        "https://docs.base.org/docs",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/base-learn/docs/welcome",
+        "https://docs.base.org/tutorials",
+        "https://docs.base.org/base-learn/progress",
+        "https://docs.base.org/docs/",
+        "https://docs.base.org/docs/using-base",
+        "https://docs.base.org/docs/decomissioning-public-geth-archive-snapshots",
+        "https://docs.base.org/docs/quickstart",
+        "https://docs.base.org/docs/network-information",
+        "https://docs.base.org/docs/base-contracts",
+        "https://docs.base.org/docs/fees",
+        "https://docs.base.org/docs/differences",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/node-providers",
+        "https://docs.base.org/docs/tools/block-explorers",
+        "https://docs.base.org/docs/tools/network-faucets",
+        "https://docs.base.org/docs/tools/oracles",
+        "https://docs.base.org/docs/tools/data-indexers",
+        "https://docs.base.org/docs/tools/cross-chain",
+        "https://docs.base.org/docs/tools/account-abstraction",
+        "https://docs.base.org/docs/tools/onramps",
+        "https://docs.base.org/docs/tools/onboarding",
+        "https://docs.base.org/docs/tools/bridges",
+        "https://docs.base.org/docs/tools/registry-api",
+        "https://docs.base.org/docs/tools/basenames-faq",
+        "https://docs.base.org/docs/tools/foundry",
+        "https://docs.base.org/docs/tools/ethers",
+        "https://docs.base.org/docs/tokens/list",
+        "https://docs.base.org/docs/tokens/wallet",
+        "https://docs.base.org/docs/contracts",
+        "https://docs.base.org/docs/security/bounty",
+        "https://docs.base.org/docs/security/report",
+        "https://docs.base.org/docs/security/app-blocklist",
+        "https://docs.base.org/docs/terms-of-service",
+        "https://docs.base.org/docs/privacy-policy",
+        "https://docs.base.org/docs/cookie-policy",
+        "https://docs.base.org/docs/privacy-policy",
+        "https://docs.base.org/cdn-cgi/l/email-protection#95e5e7fce3f4f6ecd5f7f4e6f0bbfae7f2",
+        "https://docs.base.org/cookie-policy"
+      ],
+      "sections": [
+        {
+          "heading": "Base Cookie Policy",
+          "content": "Last updated: January 17, 2024\n\nThis Cookie Policy explains how Base (referred to here as \"we\", \"us\" and \"our\")\nuses cookies and similar technologies when you visit base.org (the\n\"Site\") and/or when you explore and use Base through the Base protocol or any other\napplications, tools, and features we operate (collectively referred to as the \"Services\").\nIt explains what these technologies are and why we use them, as well as your rights to\ncontrol our use of them.\n\nIn some cases, we may use cookies and similar technologies to collect personal information,\nor information that becomes personal information if we combine it with other information.\nIn such cases, the Base Privacy Policy will apply\nin addition to this Cookie Policy."
+        },
+        {
+          "heading": "1. What Are Cookies?​",
+          "content": "Browser cookies are text files with small pieces of data downloaded onto your computer or\nmobile device. Browser cookies and other similar technologies enable websites and apps to\nstore information or facilitate access to information stored on your device to enable\ncertain features and distinguish you from other visitors. These technologies are used by\nmost website and app providers to let users navigate between pages efficiently, ensure\nsecurity of the webpage or application, understand how their websites are used, remember\nuser preferences and generally improve the user experience. More information on cookies\nand their use can be found at aboutcookies.org or\nallaboutcookies.org. Cookies set by the website operator\nare called \"first party cookies\" and Cookies set by parties other than the website\noperator are called \"third party cookies\". You should check the third-party's website\nfor more information on how they use cookies."
+        },
+        {
+          "heading": "2. What Do We Use Cookies For?​",
+          "content": "When you access our Site and Services, we, or companies we work with, may place cookies\n(collectively called \"cookies\" in this Cookie Policy) and similar technologies (such as\nweb beacons, software development kits (\"SDKs\"), APIs, tags and local storage) on your\ncomputer or other device for the following purposes:"
+        },
+        {
+          "heading": "Strictly Necessary purposes​",
+          "content": "Strictly Necessary cookies are essential for our Services to function and therefore\ncannot be switched off. They are usually only set in response to actions made by you\nwhich amount to a request for services, such as setting your privacy preferences,\nlogging in, or filling in forms. These also include cookies we may rely on for security\npurposes, such as to prevent unauthorised access attempts. You can set your browser to\nblock or alert you about these cookies at any time, but some features of our Services\nmay not work."
+        },
+        {
+          "heading": "Performance purposes​",
+          "content": "We use these cookies to count visits and traffic sources so we can measure and improve\nthe performance of our Services. These cookies help us to know which pages are the most\nand least popular and see how visitors move around the Site, and to resolve any errors\nthat occur on the Services quickly to provide you with a better experience. For example,\nour first party base_device_id cookie is used to provide analytics on how our Site and\nServices perform. This cookie lasts for 3 months."
+        },
+        {
+          "heading": "3. How to Manage Cookies, Similar Technologies and Targeted Online Mobile Advertising​",
+          "content": "You have the right to decide whether to accept or reject cookies (except strictly necessary\ncookies). You can enable or disable categories of cookies by visiting our Cookie Preference Manager.\nThis includes both first party and third party cookies. You can use the browser with which you\nare viewing this website to enable, disable or delete cookies. To do this, follow the instructions\nprovided by your browser (usually located within the \"Help\", \"Tools\" or \"Edit\" settings). However,\nplease note, if you set your browser to disable cookies, you may not be able to access secure areas\nof our Services. Also, if you disable cookies, other parts of our Services may not function properly.\n\nThere are also additional tools available to manage third party cookies. You can visit the DAA's\nopt-out portal available at optout.aboutads.info, the DAA of Canada's\nopt-out portal available at youradchoices.ca/en/tools, or visit\nthe NAI's opt-out portal available at optout.networkadvertising.org.\nResidents of the European Union may opt-out of online behavioural advertising served by the European\nInteractive Digital Advertising Alliance's participating member organizations by visiting\nyouronlinechoices.eu or through your mobile device settings,\nwhere available and the DAA's AppChoices mobile application opt-out offering here:\nyouradchoices.com/appchoices.\n\nIf you have any questions about our use of cookies or other technologies, please submit\nyour request to [email protected]."
+        },
+        {
+          "heading": "4. Will This Cookie Policy Be Updated?​",
+          "content": "We may update this Cookie Policy from time to time to reflect, for example, changes to\nthe cookies we use or for other operational, legal or regulatory reasons. You can also\nrevisit this page if you wish to keep yourself informed."
+        }
+      ]
+    }
+  ]
+}
