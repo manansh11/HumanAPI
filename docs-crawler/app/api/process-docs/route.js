@@ -5,15 +5,16 @@ import { NextResponse } from 'next/server';
 export async function POST(request) {
   try {
     const { url } = await request.json();
-    const apiKey = process.env.FIRECRAWL_API_KEY;
-
-    console.log('Processing URL:', url);
+    console.log('\n=== Starting crawler for URL:', url, '===\n');
 
     // Step 1: Get initial page content
+    console.log('Fetching initial page...');
     const response = await axios.get(url);
     const $ = cheerio.load(response.data);
+    console.log('Initial page fetched successfully');
 
     // Get all links from the page
+    console.log('\nCollecting links...');
     const links = new Set();
     $('a').each((_, element) => {
       const href = $(element).attr('href');
@@ -22,9 +23,10 @@ export async function POST(request) {
           const absoluteUrl = new URL(href, url).toString();
           if (absoluteUrl.startsWith(new URL(url).origin)) {
             links.add(absoluteUrl);
+            console.log('Added link:', absoluteUrl);
           }
         } catch (error) {
-          console.log(`Invalid URL ${href}: skipped`);
+          console.log(`Skipped invalid URL ${href}:`, error.message);
         }
       }
     });
@@ -32,17 +34,24 @@ export async function POST(request) {
     // Step 2: Crawl each URL and collect content
     const pages = [];
     const processedUrls = new Set();
+    console.log('\nStarting to crawl pages...');
+    console.log('Total links to process:', links.size);
 
     for (const pageUrl of links) {
-      if (processedUrls.has(pageUrl)) continue;
+      if (processedUrls.has(pageUrl)) {
+        console.log('Skipping already processed URL:', pageUrl);
+        continue;
+      }
       processedUrls.add(pageUrl);
 
-      console.log('Crawling URL:', pageUrl);
+      console.log('\nProcessing URL:', pageUrl);
       try {
         const pageResponse = await axios.get(pageUrl);
         const page$ = cheerio.load(pageResponse.data);
+        console.log('Page fetched successfully');
 
         // Extract code examples
+        console.log('Extracting code examples...');
         const codeExamples = [];
         page$('pre code').each((_, element) => {
           const code = page$(element).text().trim();
@@ -50,8 +59,10 @@ export async function POST(request) {
             codeExamples.push(code);
           }
         });
+        console.log('Found', codeExamples.length, 'code examples');
 
         // Extract links
+        console.log('Extracting links...');
         const pageLinks = [];
         page$('a').each((_, element) => {
           const href = page$(element).attr('href');
@@ -62,12 +73,14 @@ export async function POST(request) {
                 pageLinks.push(absoluteUrl);
               }
             } catch (error) {
-              console.log(`Invalid URL ${href}: skipped`);
+              console.log(`Skipped invalid URL ${href}:`, error.message);
             }
           }
         });
+        console.log('Found', pageLinks.length, 'links');
 
         // Extract sections with headings and content
+        console.log('Extracting sections...');
         const sections = [];
         let currentHeading = null;
         let currentContent = [];
@@ -99,11 +112,13 @@ export async function POST(request) {
             content: currentContent.join('\n\n')
           });
         }
+        console.log('Found', sections.length, 'sections');
 
         // Get page title
         const title = page$('title').text().trim() ||
                      page$('h1').first().text().trim() ||
                      new URL(pageUrl).pathname;
+        console.log('Page title:', title);
 
         pages.push({
           url: pageUrl,
@@ -113,8 +128,9 @@ export async function POST(request) {
           sections
         });
 
+        console.log('Successfully processed page:', pageUrl);
       } catch (error) {
-        console.error('Error crawling URL:', pageUrl, error);
+        console.error('Error processing URL:', pageUrl, error.message);
       }
     }
 
@@ -124,12 +140,11 @@ export async function POST(request) {
       pages
     };
 
-    console.log('Final result:', JSON.stringify(result, null, 2));
+    console.log('\n=== Crawler finished ===');
+    console.log('Total pages processed:', pages.length);
+    console.log('Timestamp:', result.crawled_at);
 
-    return new Response(JSON.stringify(result), {
-      status: 200,
-      headers: { 'Content-Type': 'application/json' },
-    });
+    return NextResponse.json(result);
 
   } catch (error) {
     console.error('Error processing documentation:', error.message);
