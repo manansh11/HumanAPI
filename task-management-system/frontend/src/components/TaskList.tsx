@@ -10,6 +10,7 @@ interface Task {
 const TaskList: React.FC = () => {
   const [tasks, setTasks] = useState<Task[]>([]);
   const [newTask, setNewTask] = useState({ title: '', description: '' });
+  const [editingTask, setEditingTask] = useState<Task | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
 
@@ -66,6 +67,27 @@ const TaskList: React.FC = () => {
     }
   };
 
+  const handleEdit = async (taskId: string) => {
+    if (!editingTask) return;
+    try {
+      const response = await fetch(`http://localhost:8000/api/tasks/${taskId}`, {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          title: editingTask.title,
+          description: editingTask.description,
+        }),
+      });
+      const updatedTask = await response.json();
+      setTasks(tasks.map(t => t._id === taskId ? updatedTask : t));
+      setEditingTask(null);
+    } catch (err) {
+      setError('Failed to update task');
+    }
+  };
+
   if (loading) return <div>Loading tasks...</div>;
   if (error) return <div>Error: {error}</div>;
 
@@ -99,16 +121,52 @@ const TaskList: React.FC = () => {
       <div className="space-y-4">
         {tasks.map(task => (
           <div key={task._id} className="border p-4 rounded">
-            <div className="flex items-center justify-between">
-              <h3 className="text-lg font-semibold">{task.title}</h3>
-              <input
-                type="checkbox"
-                checked={task.completed}
-                onChange={() => toggleComplete(task._id)}
-                className="h-5 w-5"
-              />
-            </div>
-            <p className="mt-2 text-gray-600">{task.description}</p>
+            {editingTask?._id === task._id ? (
+              <div>
+                <input
+                  type="text"
+                  value={editingTask.title}
+                  onChange={e => setEditingTask({ ...editingTask, title: e.target.value })}
+                  className="w-full p-2 mb-2 border rounded"
+                />
+                <textarea
+                  value={editingTask.description}
+                  onChange={e => setEditingTask({ ...editingTask, description: e.target.value })}
+                  className="w-full p-2 mb-2 border rounded"
+                />
+                <button
+                  onClick={() => handleEdit(task._id)}
+                  className="bg-green-500 text-white px-4 py-2 rounded mr-2"
+                >
+                  Save
+                </button>
+                <button
+                  onClick={() => setEditingTask(null)}
+                  className="bg-gray-500 text-white px-4 py-2 rounded"
+                >
+                  Cancel
+                </button>
+              </div>
+            ) : (
+              <div>
+                <div className="flex items-center justify-between">
+                  <h3 className="text-lg font-semibold">{task.title}</h3>
+                  <input
+                    type="checkbox"
+                    checked={task.completed}
+                    onChange={() => toggleComplete(task._id)}
+                    className="h-5 w-5"
+                  />
+                </div>
+                <p className="mt-2 text-gray-600">{task.description}</p>
+                <button
+                  onClick={() => setEditingTask(task)}
+                  className="mt-2 bg-yellow-500 text-white px-4 py-2 rounded"
+                >
+                  Edit
+                </button>
+              </div>
+            )}
           </div>
         ))}
       </div>
