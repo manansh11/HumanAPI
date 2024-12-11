@@ -1,0 +1,40 @@
+{
+  "source_url": "https://docs.firecrawl.dev/introduction",
+  "crawled_at": "2024-12-11T01:14:25.069Z",
+  "pages": [
+    {
+      "url": "https://docs.firecrawl.dev/introduction",
+      "title": "Quickstart | Firecrawl",
+      "sections": [
+        {
+          "heading": "Welcome to Firecrawl",
+          "content": "Firecrawl is an API service that takes a URL, crawls it, and converts it into clean markdown. We crawl all accessible subpages and give you clean markdown for each. No sitemap required."
+        },
+        {
+          "heading": "How to use it?",
+          "content": "We provide an easy to use API with our hosted version. You can find the playground and documentation here. You can also self host the backend if you'd like.\n\nCheck out the following resources to get started:\n\n- [x] **API**: Documentation\n- [x] **SDKs**: Python, Node, Go, Rust\n- [x] **LLM Frameworks**: Langchain (python), Langchain (js), Llama Index, Crew.ai, Composio, PraisonAI, Superinterface, Vectorize\n- [x] **Low-code Frameworks**: Dify, Langflow, Flowise AI, Cargo, Pipedream\n- [x] **Others**: Zapier, Pabbly Connect\n- [ ] Want an SDK or Integration? Let us know by opening an issue.\n\n**Self-host:** To self-host refer to guide here."
+        },
+        {
+          "heading": "API Key",
+          "content": "To use the API, you need to sign up on Firecrawl and get an API key."
+        },
+        {
+          "heading": "Features",
+          "content": "- **Scrape**: scrapes a URL and get its content in LLM-ready format (markdown, structured data via LLM Extract, screenshot, html)\n- **Crawl**: scrapes all the URLs of a web page and return content in LLM-ready format\n- **Map**: input a website and get all the website urls - extremely fast"
+        },
+        {
+          "heading": "Powerful Capabilities",
+          "content": "- **LLM-ready formats**: markdown, structured data, screenshot, HTML, links, metadata\n- **The hard stuff**: proxies, anti-bot mechanisms, dynamic content (js-rendered), output parsing, orchestration\n- **Customizability**: exclude tags, crawl behind auth walls with custom headers, max crawl depth, etc…\n- **Media parsing**: pdfs, docx, images.\n- **Reliability first**: designed to get the data you need reliably"
+        },
+        {
+          "heading": "Open Source vs Cloud",
+          "content": "Firecrawl is open source available under the AGPL-3.0 license.\n\nTo deliver the best possible product, we offer a hosted version of Firecrawl alongside our open-source offering. The cloud solution allows us to continuously innovate and maintain a high-quality, sustainable service for all users.\n\nFirecrawl Cloud is available at firecrawl.dev and offers a range of features that are not available in the open source version."
+        },
+        {
+          "heading": "Contributing",
+          "content": "We love contributions! Please read our contributing guide before submitting a pull request."
+        }
+      ]
+    }
+  ]
+}
