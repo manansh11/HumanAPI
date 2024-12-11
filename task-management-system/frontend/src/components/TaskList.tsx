@@ -71,7 +71,7 @@ const TaskList: React.FC = () => {
     if (!editingTask) return;
     try {
       const response = await fetch(`http://localhost:8000/api/tasks/${taskId}`, {
-        method: 'PUT',
+        method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
         },
