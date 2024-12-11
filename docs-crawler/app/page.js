@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { Copy, Check } from 'lucide-react';
+import { Copy, Check, ChevronDown, ChevronRight, Loader } from 'lucide-react';
 
 export default function Home() {
   const [url, setUrl] = useState('');
@@ -8,11 +8,14 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [copied, setCopied] = useState(false);
+  const [expandedPages, setExpandedPages] = useState({});
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
     setError(null);
+    setResult(null);
+    setExpandedPages({});
 
     try {
       const response = await fetch('/api/process-docs', {
@@ -30,6 +33,11 @@ export default function Home() {
       }
 
       setResult(data);
+      const initialExpandedState = {};
+      data.pages.forEach((_, index) => {
+        initialExpandedState[index] = false;
+      });
+      setExpandedPages(initialExpandedState);
     } catch (err) {
       setError(err.message);
     } finally {
@@ -43,6 +51,74 @@ export default function Home() {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     }
+  };
+
+  const togglePage = (index) => {
+    setExpandedPages(prev => ({
+      ...prev,
+      [index]: !prev[index]
+    }));
+  };
+
+  const renderPage = (page, index) => {
+    const isExpanded = expandedPages[index];
+    return (
+      <div key={index} className="mb-4 border rounded-lg overflow-hidden">
+        <button
+          onClick={() => togglePage(index)}
+          className="w-full p-4 bg-gray-50 flex items-center justify-between hover:bg-gray-100 transition-colors"
+        >
+          <div className="flex items-center gap-2">
+            {isExpanded ? <ChevronDown className="w-4 h-4" /> : <ChevronRight className="w-4 h-4" />}
+            <span className="font-medium">{page.title || page.url}</span>
+          </div>
+          <span className="text-sm text-gray-500">
+            {page.sections.length} sections, {page.code_examples.length} code examples
+          </span>
+        </button>
+        {isExpanded && (
+          <div className="p-4 bg-white">
+            <div className="mb-4">
+              <h4 className="text-sm font-semibold text-gray-500 mb-2">URL</h4>
+              <p className="text-sm break-all">{page.url}</p>
+            </div>
+            {page.code_examples.length > 0 && (
+              <div className="mb-4">
+                <h4 className="text-sm font-semibold text-gray-500 mb-2">Code Examples</h4>
+                {page.code_examples.map((code, codeIndex) => (
+                  <pre key={codeIndex} className="p-2 bg-gray-50 rounded text-sm mb-2 overflow-x-auto">
+                    {code}
+                  </pre>
+                ))}
+              </div>
+            )}
+            {page.links.length > 0 && (
+              <div className="mb-4">
+                <h4 className="text-sm font-semibold text-gray-500 mb-2">Links</h4>
+                <ul className="text-sm space-y-1">
+                  {page.links.map((link, linkIndex) => (
+                    <li key={linkIndex} className="break-all">
+                      <a href={link} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+                        {link}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            <div>
+              <h4 className="text-sm font-semibold text-gray-500 mb-2">Content Sections</h4>
+              {page.sections.map((section, sectionIndex) => (
+                <div key={sectionIndex} className="mb-4">
+                  <h5 className="font-medium mb-2">{section.heading}</h5>
+                  <p className="text-sm whitespace-pre-wrap">{section.content}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    );
   };
 
   return (
@@ -62,9 +138,16 @@ export default function Home() {
           <button
             type="submit"
             disabled={loading}
-            className="px-4 py-2 bg-blue-500 text-white rounded disabled:bg-blue-300"
+            className="px-4 py-2 bg-blue-500 text-white rounded disabled:bg-blue-300 flex items-center gap-2"
           >
-            {loading ? 'Processing...' : 'Process'}
+            {loading ? (
+              <>
+                <Loader className="w-4 h-4 animate-spin" />
+                <span>Processing...</span>
+              </>
+            ) : (
+              'Process'
+            )}
           </button>
         </div>
       </form>
@@ -78,7 +161,12 @@ export default function Home() {
       {result && (
         <div className="mt-8">
           <div className="flex items-center justify-between mb-4">
-            <h2 className="text-xl font-semibold">Results</h2>
+            <div>
+              <h2 className="text-xl font-semibold">Results</h2>
+              <p className="text-sm text-gray-500">
+                Crawled {result.pages.length} pages at {new Date(result.crawled_at).toLocaleString()}
+              </p>
+            </div>
             <button
               onClick={handleCopy}
               className="flex items-center gap-2 px-3 py-1 text-sm bg-gray-100 hover:bg-gray-200 rounded transition-colors"
@@ -92,14 +180,14 @@ export default function Home() {
               ) : (
                 <>
                   <Copy className="w-4 h-4" />
-                  <span>Copy</span>
+                  <span>Copy JSON</span>
                 </>
               )}
             </button>
           </div>
-          <pre className="p-4 bg-gray-100 rounded overflow-x-auto whitespace-pre-wrap break-words max-w-full">
-            {JSON.stringify(result, null, 2)}
-          </pre>
+          <div className="space-y-4">
+            {result.pages.map((page, index) => renderPage(page, index))}
+          </div>
         </div>
       )}
     </main>
