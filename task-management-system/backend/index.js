@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
 const connectDB = require('./config/database');
+const taskRoutes = require('./routes/tasks');
 
 const app = express();
 
@@ -10,6 +11,9 @@ connectDB();
 
 app.use(cors());
 app.use(express.json());
+
+// Task routes
+app.use('/api/tasks', taskRoutes);
 
 app.get('/api/health', (req, res) => {
   console.log('Health check endpoint called');
